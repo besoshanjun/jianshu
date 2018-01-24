@@ -1,15 +1,12 @@
 <template>
     <div>
-        <b-container>
-            <b-row>
-                <b-col class="9">我占9个</b-col>
-                <b-col class="3">我占3个</b-col>
-            </b-row>
-        </b-container>
+        <b-alert show variant="primary">Primary Alert</b-alert>
+        <b-alert show variant="secondary">Secondary Alert</b-alert>
+        <b-alert show variant="success">Success Alert</b-alert>
+        <b-alert show variant="danger">Danger Alert</b-alert>
+        <b-alert show variant="warning">Warning Alert</b-alert>
+        <b-alert show variant="info">Info Alert</b-alert>
+        <b-alert show variant="light">Light Alert</b-alert>
+        <b-alert show variant="dark">Dark Alert</b-alert>
     </div>
 </template>
-<script>
-    export default{
-
-    }
-</script>
