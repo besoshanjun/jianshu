@@ -59,7 +59,7 @@
     </div>
 </template>
 <script>
-    import '~/assets/css/sign.css'
+    import '../assets/css/sign.css'
     export default {
         layout:'sign',//指明当前页面所使用的默认模版是layout文件夹下的sing.vue
         head(){
@@ -72,3 +72,6 @@
         }
     }
 </script>
+<style>
+
+</style>

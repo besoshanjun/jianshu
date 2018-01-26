@@ -1,16 +1,91 @@
-a,a:hover,a:focus{
-    text-decoration: none !important;
-    color:inherit!important;
+/**************************公共样式**************************/
+* {
+    box-sizing: border-box;
 }
-input:focus{
+html, body {
+    height: 100%;
+    background-color: #fff;
+    color: #333;
+}
+#__nuxt {
+    height: 100%;
+}
+#sign-template {
+    height: 100%;
+    background: #f1f1f1;
+}
+#default-template {
+    height: 100%;
+    padding-top: 56px;
+    background: #fff;
+}
+a, a:hover, a:focus {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+input:focus {
     outline: none;
 }
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
-ul,ol,dl{
+ul, ol, dl {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+img {
+    max-height: 100%;
+    display: block;
+}
+.my-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width: 992px) {
+    .my-container {
+        width: 960px !important;
+    }
+}
+@media (max-width: 1080px) {
+    .my-container {
+        width: 750px;
+    }
+}
+/**************************************首页布局**********************************/
+.index{
+    padding-top: 30px;
+}
+.index .main{
+    padding-right: 0;
+}
+.index .aside{
+    padding:0 0 0 4.16667%;
+}
+.index .main .banner img{
+    width: 100%;
+}
+.index .aside .board img{
+    width: 100%;
+    margin-bottom: 4.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*文章页面布局*/
+/*用户页面布局*/
