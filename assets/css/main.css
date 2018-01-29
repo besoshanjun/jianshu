@@ -37,7 +37,6 @@ ul, ol, dl {
 }
 img {
     max-height: 100%;
-    display: block;
 }
 .my-container {
     margin-right: auto;
@@ -47,7 +46,7 @@ img {
 }
 @media (min-width: 992px) {
     .my-container {
-        width: 960px !important;
+        width: 960px;
     }
 }
 @media (max-width: 1080px) {
@@ -65,10 +64,168 @@ img {
 .index .aside{
     padding:0 0 0 4.16667%;
 }
+.index .main .banner{
+    margin-bottom: 35px;
+}
 .index .main .banner img{
     width: 100%;
     border-radius:5px;
 }
+.index .main .recommend-collection{
+    margin-bottom: 10px;
+}
+.index .main .recommend-collection p{
+    margin: 0;
+    padding:0;
+}
+.index .main .recommend-collection a{
+    display: inline-block;
+    min-height: 32px;
+    margin: 0 18px 18px 0;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.index .main .recommend-collection .more-hot-collection{
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    font-size: 14px;
+    background: none;
+    border:none;
+    color:#787878!important;
+    line-height: 32px;
+}
+.index .main .recommend-collection a img{
+    width: 32px;
+    height: 32px;
+    vertical-align:bottom;
+}
+.index .main .recommend-collection a span{
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+    line-height: 32px;
+}
+.index .main .split-line{
+    margin: 0 0 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.note-list{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.note-list li{
+    position: relative;
+    width: 100%;
+    padding: 0 0 17px 0;
+    margin: 0 0 17px 0;
+    border-bottom: 1px solid #ccc;
+    word-wrap:break-word;
+}
+.note-list li.have-img>.wrap-img{
+    position: absolute;
+    top: 50%;
+    right:0;
+    margin-top: -60px;
+    width:150px;
+    height:120px;
+}
+.note-list li.have-img>.wrap-img img{
+    width:100%;
+    height: 100%;
+    border-radius:4px;
+    border:1px solid #f0f0f0;
+}
+.note-list li.have-img .content{
+    padding-right: 160px;
+}
+.note-list li.have-img .author{
+    margin-bottom:10px;
+    font-size: 13px;
+}
+.note-list .author .avatar ,.note-list .info{
+    display: inline-block;
+    vertical-align: middle;
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border:1px solid #ccc;
+}
+.note-list .author .avatar{
+    margin: 0 10px 0 0;
+}
+.note-list .author .info .time{
+    color:#969696;
+    padding-left: 5px;
+}
+.note-list .title{
+    display: inline-block;
+    font-size:18px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.note-list .title:visited{
+    color:#969696;
+}
+.note-list .abstract{
+    font-size:13px;
+    line-height:24px;
+    margin: 0 0 8px;
+
+}
+.note-list .meta{
+    font-size:12px;
+    line-height: 20px;
+    font-weight:400;
+}
+.note-list .meta .collection-tag{
+    color:#ea6f5a !important;
+    border:1px solid #ea6f5a;
+    padding:3px 6px;
+    border-radius: 3px;
+    margin-right: 10px;
+    transition:all ease-in .2s;
+}
+.note-list .meta .collection-tag:hover{
+    background-color: rgb(254,247,246);
+    border-color:rgb(236,97,73);
+}
+.note-list .meta a.tag:hover{
+    color:rgb(120,120,120)!important;
+}
+.note-list .meta a,.note-list .meta span{
+    margin-right:10px;
+    color:#b4b4b4 !important;
+}
+@media(max-width: 1080px){
+    .note-list li.have-img>.wrap-img img{
+        width:125px;
+        height: 100px;
+        bottom:40px;
+    }
+    .note-list li.have-img>div{
+        padding-right: 135px;
+    }
+}
+
+
+
+
+
+
+
+
 .index .aside .board img{
     width: 100%;
     margin-bottom: 4.5px;
