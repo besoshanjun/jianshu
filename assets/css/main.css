@@ -67,10 +67,12 @@ img {
 }
 .index .main .banner img{
     width: 100%;
+    border-radius:5px;
 }
 .index .aside .board img{
     width: 100%;
     margin-bottom: 4.5px;
+
 }
 
 
