@@ -6,6 +6,8 @@ html, body {
     height: 100%;
     background-color: #fff;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 #__nuxt {
     height: 100%;
@@ -123,7 +125,7 @@ img {
     width: 100%;
     padding: 0 0 17px 0;
     margin: 0 0 17px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #f0f0f0;
     word-wrap:break-word;
 }
 .note-list li.have-img>.wrap-img{
@@ -154,7 +156,7 @@ img {
 .avatar{
     width: 32px;
     height: 32px;
-    display: block;
+    display:block;
 }
 .avatar img{
     width: 100%;
@@ -176,20 +178,26 @@ img {
     margin-bottom: 7px;
 }
 .note-list .title:visited{
-    color:#969696;
+    color:#969696z;
 }
 .note-list .abstract{
     font-size:13px;
     line-height:24px;
     margin: 0 0 8px;
-
 }
 .note-list .meta{
     font-size:12px;
     line-height: 20px;
     font-weight:400;
+
 }
 .note-list .meta .collection-tag{
+    vertical-align:middle;
+    display: inline-block;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
     color:#ea6f5a !important;
     border:1px solid #ea6f5a;
     padding:3px 6px;
@@ -218,18 +226,183 @@ img {
         padding-right: 135px;
     }
 }
-
-
-
-
-
-
-
-
+.index .main .load-more{
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+    color:#fff !important;
+    background-color: #a5a5a5;
+    border-radius: 20px;
+    margin:30px auto 60px;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+/*****************/
 .index .aside .board img{
     width: 100%;
     margin-bottom: 4.5px;
+}
+.index .aside .board {
+    margin-bottom: 4px;
+}
+.recommend-author{
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+.recommend-author .title{
+    text-align:left !important;
+    color:#969696;
+}
+.recommend-author .title .page-change{
+    float:right;
+    color:#969696;
+}
+.recommend-author .title .page-change i{
+    transition: ease .2s;
+}
+.recommend-author .list{
+    margin-bottom: 20px;
+}
+.recommend-author .list li{
+    margin-top:15px;
+    text-align: left;
+}
+.recommend-author .list li .avatar{
+    float:left;
+    width:48px;
+    height: 48px;
+    margin-right: 10px;
+}
+.recommend-author .list li .follow{
+    margin-top: 5px;
+    float: right;
+    font-size:13px;
+    color:#42c02e !important;
+}
+.recommend-author .list li .name{
+    display: block;
+    padding-top: 5px;
+    margin-right: 60px;
+    font-size: 14px;
+}
+.recommend-author .list li p{
+    color:#969696;
+    font-size: 12px;
+}
+.recommend-author .find-more{
+    display: block;
+    width: 100%;
+    padding: 7px 7px 7px 12px;
+    color: #787878 !important;
+    border:1px solid #ccc;
+    background: #f7f7f7;
+    font-size:15px;
+    border-radius: 5px;
+}
+.recommend-author .find-more i{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.aside .download{
+    width: 100%;
+    min-height: 150px;
+    border-radius: 6px;
+    background: white;
+}
+.aside .download img{
+    width: 100%;
+}
 
+footer {
+    padding-bottom: 20px;
+}
+footer .list{
+    overflow: hidden;
+    zoom: 1;
+}
+footer .list li {
+    float:left;
+    font-size: 13px;
+    color: #969696;
+}
+footer .jiesao{
+    font-size: 12px;
+    color: #c8c8c8;
+}
+footer .jiesao img{
+    width: 60px;
+    height: 30px;
+}
+footer .jiesao img:nth-of-type(3){
+    width: 25.5px;
+    height: 30px;
+}
+
+/*************************文章页面布局***************************/
+.note{
+    position: relative;
+    padding-top: 10px;
+}
+.note .post{
+    width: 620px;
+    margin:0 auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.note .post .article h1{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 20px 0 0 ;
+    word-break:break-all;
+    line-height: 1.3;
+}
+.note .post .article .author{
+    margin:30px 0 40px 0;
+}
+.note .post .article .author .avatar{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    border-radius: 50%;
+    border:1px solid #ddd;
+}
+.note .post .article .author .info{
+    display:inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.note .post .article .author .info .name{
+    margin-right: 3px;
+    font-size: 16px;
+}
+.note .post .article .author .info .follow{
+    color:#fff !important;
+    background-color: #42c02e;
+    border-radius:20px;
+    font-size: 12px;
+    padding: 1px 7px;
+}
+.note .post .article .author .info .notfollow{
+    color:#969696 !important;
+    background-color: #fff;
+    border-radius:20px;
+    font-size: 12px;
+    padding: 1px 7px;
+    border: 1px solid #999;
+}
+.note .post .article .author .meta{
+    margin-top: 5px;
+    font-size: 12px;
+    color:#969696;
+}
+.note .post .article .meta span{
+    margin-right: 5px;
+}
+.note .post .article .author .info .btn-sm span{
+    margin-left: 5px;
 }
 
 
@@ -246,5 +419,11 @@ img {
 
 
 
-/*文章页面布局*/
+
+
+
+
+
+
+
 /*用户页面布局*/
