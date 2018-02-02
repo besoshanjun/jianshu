@@ -233,6 +233,28 @@ img {
         padding-right: 135px;
     }
 }
+@keyframes loading {
+    0%{
+        width: 60%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes shortLoading {
+    0%{
+        width: 20%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 20%;
+    }
+}
 .index .main .load-more{
     display: block;
     width: 100%;
@@ -637,16 +659,56 @@ footer .jiesao img:nth-of-type(3){
     left:calc(50% - 11px);
     background:#fff;
     position: absolute;
-
 }
-
-
-
-
-
-
-
-
-
+.comment-placeholder{
+    padding:20px 0 30px 0;
+}
+.comment-placeholder .author{
+    margin-bottom:15px;
+}
+.comment-placeholder .author .avatar{
+    background: #eaeaea;
+    border-radius: 50%;
+}
+.comment-placeholder .author .info{
+    display: inline-block;
+}
+.comment-placeholder .author .info .name{
+    width: 60px;
+    height: 15px;
+    margin-bottom:6px;
+    background: #eaeaea;
+}
+.comment-placeholder .author .info .meta{
+    width: 120px;
+    height: 12px;
+    background: #eaeaea;
+}
+.comment-placeholder .title{
+    width: 100%;
+    height: 16px;
+    background: #eaeaea;
+    margin-bottom:8px;
+    animation:loading 1s ease-in-out infinite;
+    position: relative;
+}
+.comment-placeholder .animated-delay{
+    animation:loading 1s ease-in-out -.5s infinite;
+}
+.comment-placeholder .tool-group{
+    font-size: 15px;
+    color:#eaeaea;
+    padding-top: 5px;
+}
+.comment-placeholder .tool-group i{
+    margin-right:5px;
+}
+.comment-placeholder .tool-group .zan{
+    width: 40px;
+    height: 14px;
+    margin-right: 10px;
+    display: inline-block;
+    background: #eaeaea;
+}
 
 /*用户页面布局*/
