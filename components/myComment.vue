@@ -39,6 +39,9 @@
                         <a href="javascript:void(0)">按时间倒序</a>
                     </div>
                 </div>
+                <div>
+
+                </div>
                 <!--留言的正文-->
                 <div style="display: none" class="comment-placeholder">
                     <div class="author">
@@ -68,15 +71,50 @@
                                     {{comment.user.nick_name}}
                                 </nuxt-link>
                                 <div class="meta">
-                                    <span>{{comment.floor}}楼·{{comment.create_at}}</span>
+                                    <span>{{comment.floor}}楼&nbsp;·&nbsp;{{comment.create_at|formatDate}}</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="comment-wrap"></div>
+                        <div class="comment-wrap">
+                            <p>{{comment.compiled_content}}</p>
+                            <div class="tool-group">
+                                <a href="javascript:void(0)">
+                                    <i class="fa fa-thumbs-o-up"></i>
+                                    <span>{{comment.likes_count}}人点赞</span>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <i class="fa fa-comment-o"></i>
+                                    <span>回复</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="sub-comment-list"></div>
+                    <div v-if="comment.children.length != 0" class="sub-comment-list">
+                        <div v-for="(subComment,index) in comment.children" :id="'comment-'+subComment.id" class="sub-comment">
+                            <p>
+                                <nuxt-link to="/u/123">
+                                    {{subComment.user.nick_name}}
+                                </nuxt-link>:
+                                <span v-html="subComment.compiled_content"></span>
+                            </p>
+                            <div class="sub-tool-group">
+                                <span>{{subComment.create_at|formatDate}}</span>
+                                <a href="javascript:void(0)">
+                                    <i class="fa fa-comment-o"></i>
+                                    <span>回复</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="more-comment">
+                            <a class="add-comment-btn" href="javascript:void(0)">
+                                <i class="fa fa-pencil"></i>
+                                <span>添加新评论</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </template>
@@ -86,7 +124,6 @@
         name: 'myComment',
         data(){
             return {
-                msg:'123',
                 send: false,
                 showEmoji: false,
                 value: '',
@@ -159,7 +196,7 @@
                             nick_name: "yuebiubiu",
                             badge: null
                         },
-                        create_at: '2018-01-25T010:38:14.000+08:00',
+                        create_at: '2018-01-25T10:38:14.000+08:00',
                         children_count: 1,
                         compiled_content: "楼上评论的都是大佬啊",
                         children: [
@@ -213,6 +250,10 @@
     }
 </script>
 <style>
+    .d-none{
+        width: 500px;
+        height: 500px;
+    }
     .fade-enter-active, .fade-leave-active {
         opacity: 1;
         transition: .3s;
@@ -363,5 +404,64 @@
     .note .post .comment-list .info .meta{
         font-size: 12px;
         color:#969696;
+    }
+    .note .post .comment-list .comment .author{
+        margin-bottom: 15px;
+    }
+    .note .post .comment-list .comment p{
+        font-size: 16px;
+        margin:10px 0;
+        line-height: 1.5;
+        word-break:break-word !important;
+    }
+    .note .post .comment-list .comment .tool-group a{
+        color:#969696 !important;
+        margin-right: 10px;
+    }
+    .note .post .comment-list .comment .tool-group a i{
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    .note .post .comment-list .comment .tool-group a span{
+        font-size: 14px;
+
+    }
+    .note .post .comment-list .sub-comment-list{
+        border-left: 2px solid #d9d9d9;
+        margin-top: 20px;
+        padding: 5px 0 5px 20px;
+    }
+    .note .post .comment-list .sub-comment{
+        padding-bottom: 15px;
+        margin-bottom:15px;
+        border-bottom:1px dashed #f0f0f0;
+    }
+    .note .post .comment-list .sub-comment p{
+        font-size: 14px;
+        line-height: 1.5;
+        mergin-bottom:5px;
+    }
+    .note .post .comment-list .sub-comment p a{
+        color:#3194d0 !important;
+    }
+    .note .post .comment-list .sub-tool-group{
+        font-size: 12px;
+        color: #969696;
+    }
+    .note .post .comment-list .sub-tool-group a{
+        margin-left: 10px;
+    }
+    .note .post .comment-list .sub-tool-group a i{
+        margin-right: 5px;
+    }
+    .note .post .comment-list .more-comment{
+        color:#969696;
+        font-size: 14px;
+    }
+    .note .post .comment-list .more-comment a:hover{
+        color:#333 !important;
+    }
+    .note .post .comment-list .more-comment a i{
+        margin-right:5px;
     }
 </style>
