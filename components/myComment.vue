@@ -34,9 +34,9 @@
                     <span>25评论</span>
                     <a class="author-only" href="javascript:void(0)">只看作者</a>
                     <div class="pull-right">
-                        <a href="javascript:void(0)" @click="sorts('like')" :class="{active:isactive1}">按喜欢排序</a>
-                        <a href="javascript:void(0)" @click="sorts('time1')" :class="{active:isactive2}">按时间正序</a>
-                        <a href="javascript:void(0)" @click="sorts('time2')" :class="{active:isactive3}">按时间倒序</a>
+                        <a href="javascript:void(0)" @click="sorts('like')" :class="">按喜欢排序</a>
+                        <a href="javascript:void(0)" @click="sorts('time1')" :class="">按时间正序</a>
+                        <a href="javascript:void(0)" @click="sorts('time2')" :class="">按时间倒序</a>
                     </div>
                 </div>
                 <div>
@@ -77,11 +77,11 @@
                         <div class="comment-wrap">
                             <p>{{comment.compiled_content}}</p>
                             <div class="tool-group">
-                                <a href="javascript:void(0)" @click="thumbs(comment.id,index)">
-                                    <i class="fa fa-thumbs-o-up" :id="'th-'+comment.id"></i>
-                                    <span :id="'ths-'+comment.id">{{comment.likes_count}}人点赞</span>
+                                <a href="javascript:void(0)" @click="">
+                                    <i class="fa fa-thumbs-o-up" ></i>
+                                    <span >{{comment.likes_count}}人点赞</span>
                                 </a>
-                                <a href="javascript:void(0)" @click="newComment(comment.id)">
+                                <a href="javascript:void(0)" @click="">
                                     <i class="fa fa-comment-o"></i>
                                     <span>回复</span>
                                 </a>
@@ -105,34 +105,32 @@
                             </div>
                         </div>
                         <div class="more-comment">
-                            <a class="add-comment-btn" href="javascript:void(0)"  @click="newComment(comment.id)">
+                            <a class="add-comment-btn" href="javascript:void(0)"  @click="showSubCommentForm(index)">
                                 <i class="fa fa-pencil"></i>
                                 <span>添加新评论</span>
                             </a>
                         </div>
                         <!--显示表单-->
                         <transition :duration="300" name="fade">
-                        <div  style="display:none" class="commentTwo" :id="comment.id">
-                            <form class="new-comment" v-form>
-                                 <textarea v-focus :id="'text-'+comment.id" placeholder="写下你的评论...">
+                            <form class="new-comment" v-if="activeIndex.includes(index)">
+                                 <textarea placeholder="写下你的评论...">
                                  </textarea>
                                     <div class="write-function-block clearfix">
                                         <div class="emoji-modal-wrap">
-                                            <a href="javascript:void(0)" class="emoji" @click="showEmojis(comment.id)">
+                                            <a href="javascript:void(0)" class="emoji" @click="showSubEmoji(index)">
                                                 <i class="fa fa-smile-o"></i>
                                             </a>
                                             <transition name="fade">
-                                                <div v-if="'emoji-'+comment.id == emojiValue" class="emoji-modal arrow-up">
-                                                    <vue-emoji @select="selectEmojiTwo"></vue-emoji>
+                                                <div v-if="emojiIndex.includes(index)" class="emoji-modal arrow-up">
+                                                    <vue-emoji @select="selectSubEmoji"></vue-emoji>
                                                 </div>
                                             </transition>
                                         </div>
                                         <div class="hint">Ctrl+Enter</div>
-                                        <a href="javascript:void(0)" class="btn btn-send" @click="">发送</a>
-                                        <a href="javascript:void(0)" class="cancel" @click="closeComment(comment.id)">取消</a>
+                                        <a href="javascript:void(0)" class="btn btn-send" @click="sendSubCommentData(index)">发送</a>
+                                        <a href="javascript:void(0)" class="cancel" @click="closeSubComment(index)">取消</a>
                                     </div>
                             </form>
-                        </div>
                         </transition>
                     </div>
                 </div>
@@ -255,16 +253,8 @@
                         children: []
                     },
                 ],
-                divValue:'',
-                isIndex:'',
-                prevComment:'',
-                emojiValue:'',
-                textarea:'',
-                prevName:'',
-                thumbsNumber:false,
-                isactive1:true,
-                isactive2:false,
-                isactive3:false
+                activeIndex:[],
+                emojiIndex:[]
             }
         },
         methods: {
@@ -272,119 +262,35 @@
                 this.showEmoji = false;
                 this.value += code
             },
-            selectEmojiTwo(code){
-                console.log()
-                this.emojiValue = false;
+            selectSubEmoji(code){
+               let area = event.path[event.path.length - 15][0];
+               area.innerHTML +=code;
             },
             sendData(){
                 console.log('发送value值得数据给后端')
             },
-            newComment(value){
-                let div = document.getElementById(value);
-                let area = document.getElementById('text-'+value)
-                if(area.innerHTML == ''){
-                    if(div.style.display != 'block'){
-                        div.style.display = 'block'
-                    }else{
-                        div.style.display = 'none'
-                    }
+            showSubCommentForm(value){
+                if(this.activeIndex.includes(value)){
+                    let index = this.activeIndex.indexOf(value)
+                    this.activeIndex.splice(index,1);
                 }else{
-                    area.innerHTML = '';
-                    div.style.display = 'block'
+                    this.activeIndex.push(value)
                 }
             },
-            closeComment(value){
-                let div = document.getElementById(value);
-                let area = document.getElementById('text-'+value)
-                div.style.display = 'none'
-                area.innerHTML = '';
+            sendSubCommentData(value){
+                let index = this.activeIndex.indexOf(value)
+                this.activeIndex.splice(index,1);
             },
-            showEmojis(value){
-                if( !this.emojiValue){
-                    this.emojiValue = 'emoji-'+value
+            closeSubComment(value){
+                let index = this.activeIndex.indexOf(value)
+                this.activeIndex.splice(index,1);
+            },
+            showSubEmoji(value){
+                if(this.emojiIndex.includes(value)){
+                   this.emojiIndex = []
                 }else{
-                    this.emojiValue = null
-                }
-            },
-            back(value,name){
-                let div = document.getElementById(value);
-                let area = document.getElementById('text-'+value)
-                if(area.innerHTML == ''){
-                    div.style.display = 'block'
-                    area.innerHTML = '@'+name
-                    this.prevName = name
-                }else{
-                    if(this.prevName != name){
-                        area.innerText = '@'+name
-                        this.prevName = name
-                    }else{
-                        div.style.display = 'none'
-                        area.innerHTML = '';
-                        this.prevName = ''
-                    }
-                }
-            },
-            thumbs(value,index){
-                if(!this.thumbsNumber){
-                    let thumbsi = document.getElementById('th-'+value)
-                    let thumbss = document.getElementById('ths-'+value)
-                    thumbsi.className='fa fa-thumbs-up active'
-                    thumbss.className = 'active'
-                    ++this.comments[index].likes_count
-                    this.thumbsNumber = !this.thumbsNumber
-                }else{
-                    --this.comments[index].likes_count
-                    let thumbsi = document.getElementById('th-'+value)
-                    let thumbss = document.getElementById('ths-'+value)
-                    thumbsi.className='fa fa-thumbs-o-up'
-                    thumbss.className = ''
-                    this.thumbsNumber = !this.thumbsNumber
-                }
-
-            },
-            sorts(value){
-                if(value == 'like'){
-                    this.sort1()
-                    this.isactive1 = true;
-                    this.isactive2 = false;
-                    this.isactive3 = false;
-                }else if(value == 'time1'){
-                    this.sort2()
-                    this.isactive1 = false;
-                    this.isactive2 = true;
-                    this.isactive3 = false
-                }else{
-                    this.sort3()
-                    this.isactive1 = false
-                    this.isactive2 = false;
-                    this.isactive3 = true;
-                }
-            },
-            sort1(){
-                for(var i = 0;i<this.comments.length - 1;i++){
-                    for(var j = 0;j<this.comments.length-1 -i ;j++ ){
-                        if(this.comments[j].likes_count < this.comments[j+1].likes_count){
-                            [this.comments[j],this.comments[j+1]] = [this.comments[j+1],this.comments[j]]
-                        }
-                    }
-                }
-            },
-            sort2(){
-                for(var i = 0;i<this.comments.length - 1;i++){
-                    for(var j = 0;j<this.comments.length -1-i ;j++ ){
-                        if(this.comments[j].floor > this.comments[j].floor ){
-                            [this.comments[j],this.comments[j+1]] = [this.comments[j+1],this.comments[j]]
-                        }
-                    }
-                }
-            },
-            sort3(){
-                for(var i = 0;i<this.comments.length - 1;i++){
-                    for(var j = 0;j<this.comments.length -1 -i;j++ ){
-                        if(this.comments[j].floor < this.comments[j].floor ){
-                            [this.comments[j],this.comments[j+1]] = [this.comments[j+1],this.comments[j]]
-                        }
-                    }
+                    this.emojiIndex = []
+                    this.emojiIndex.push(value)
                 }
             }
         },
@@ -618,7 +524,7 @@
     .note .post .comment-list .more-comment a i{
         margin-right:5px;
     }
-    .note .post .comment-list .sub-comment-list .commentTwo .new-comment{
-        margin: 10px 0;
+    .note .post .comment-list .sub-comment-list .new-comment{
+        margin:0;
     }
 </style>

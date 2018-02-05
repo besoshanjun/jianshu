@@ -374,6 +374,13 @@ footer .jiesao img:nth-of-type(3){
     width: 25.5px;
     height: 30px;
 }
+.badge{
+    padding: 3px 6px !important;
+    font-size: 13px!important;
+    background-color: #ea6f5a;
+    border-radius: 50% !important;
+    color:#fff;
+}
 
 /*************************文章页面布局***************************/
 .note{
