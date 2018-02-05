@@ -2,7 +2,6 @@ module.exports = {
   //插件
     plugins:[
         {src:'~/plugins/swiper-plugin.js',ssr:false},
-        {src:'~/plugins/vTooltip.js',ssr:false}
     ],
   /*
   ** Headers of the page

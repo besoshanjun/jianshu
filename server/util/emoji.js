@@ -15,7 +15,6 @@ export function emoji (value) {
   if (!value) return
   Object.keys(emojiData).forEach(item => {
     value = value.replace(new RegExp(item, 'g'), createIcon(item))
-    console.log(value)
   })
   return value
 }

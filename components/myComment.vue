@@ -34,13 +34,12 @@
                     <span>25评论</span>
                     <a class="author-only" href="javascript:void(0)">只看作者</a>
                     <div class="pull-right">
-                        <a href="javascript:void(0)" class="active">按喜欢排序</a>
-                        <a href="javascript:void(0)">按时间正序</a>
-                        <a href="javascript:void(0)">按时间倒序</a>
+                        <a href="javascript:void(0)" @click="sorts('like')" :class="{active:isactive1}">按喜欢排序</a>
+                        <a href="javascript:void(0)" @click="sorts('time1')" :class="{active:isactive2}">按时间正序</a>
+                        <a href="javascript:void(0)" @click="sorts('time2')" :class="{active:isactive3}">按时间倒序</a>
                     </div>
                 </div>
                 <div>
-
                 </div>
                 <!--留言的正文-->
                 <div style="display: none" class="comment-placeholder">
@@ -78,19 +77,19 @@
                         <div class="comment-wrap">
                             <p>{{comment.compiled_content}}</p>
                             <div class="tool-group">
-                                <a href="javascript:void(0)">
-                                    <i class="fa fa-thumbs-o-up"></i>
-                                    <span>{{comment.likes_count}}人点赞</span>
+                                <a href="javascript:void(0)" @click="thumbs(comment.id,index)">
+                                    <i class="fa fa-thumbs-o-up" :id="'th-'+comment.id"></i>
+                                    <span :id="'ths-'+comment.id">{{comment.likes_count}}人点赞</span>
                                 </a>
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" @click="newComment(comment.id)">
                                     <i class="fa fa-comment-o"></i>
                                     <span>回复</span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div v-if="comment.children.length != 0" class="sub-comment-list">
-                        <div v-for="(subComment,index) in comment.children" :id="'comment-'+subComment.id" class="sub-comment">
+                    <div class="sub-comment-list">
+                        <div v-for="(subComment,index) in comment.children" class="sub-comment">
                             <p>
                                 <nuxt-link to="/u/123">
                                     {{subComment.user.nick_name}}
@@ -99,22 +98,45 @@
                             </p>
                             <div class="sub-tool-group">
                                 <span>{{subComment.create_at|formatDate}}</span>
-                                <a href="javascript:void(0)">
+                                <a href="javascript:void(0)" @click="back(comment.id,subComment.user.nick_name)">
                                     <i class="fa fa-comment-o"></i>
                                     <span>回复</span>
                                 </a>
                             </div>
                         </div>
                         <div class="more-comment">
-                            <a class="add-comment-btn" href="javascript:void(0)">
+                            <a class="add-comment-btn" href="javascript:void(0)"  @click="newComment(comment.id)">
                                 <i class="fa fa-pencil"></i>
                                 <span>添加新评论</span>
                             </a>
                         </div>
+                        <!--显示表单-->
+                        <transition :duration="300" name="fade">
+                        <div  style="display:none" class="commentTwo" :id="comment.id">
+                            <form class="new-comment" v-form>
+                                 <textarea v-focus :id="'text-'+comment.id" placeholder="写下你的评论...">
+                                 </textarea>
+                                    <div class="write-function-block clearfix">
+                                        <div class="emoji-modal-wrap">
+                                            <a href="javascript:void(0)" class="emoji" @click="showEmojis(comment.id)">
+                                                <i class="fa fa-smile-o"></i>
+                                            </a>
+                                            <transition name="fade">
+                                                <div v-if="'emoji-'+comment.id == emojiValue" class="emoji-modal arrow-up">
+                                                    <vue-emoji @select="selectEmojiTwo"></vue-emoji>
+                                                </div>
+                                            </transition>
+                                        </div>
+                                        <div class="hint">Ctrl+Enter</div>
+                                        <a href="javascript:void(0)" class="btn btn-send" @click="">发送</a>
+                                        <a href="javascript:void(0)" class="cancel" @click="closeComment(comment.id)">取消</a>
+                                    </div>
+                            </form>
+                        </div>
+                        </transition>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </template>
@@ -132,7 +154,7 @@
                         id: 19935725,
                         floor: 2,
                         liked: false,
-                        likes_count: 20,
+                        likes_count: 12,
                         note_id: 23054702,
                         user_id: 6780849,
                         user: {
@@ -142,7 +164,7 @@
                             nick_name: '七岁就很拽',
                             badge: null
                         },
-                        create_at: '2018-01-25T09:38:14.000+08:00',
+                        create_at:"2018-10-20T11:23:16.000+08:00",
                         children_count: 3,
                         compiled_content: "今年25岁的我，年纪轻轻月薪就已经达到2800了，加上提成满勤再加上我天生的睿智头脑，平常帮客人拿下拖鞋点下烟得点小费可以拿到3100。觉得自己这几年过得也不容易，现在这么有钱，都不知道怎么花了，开始花钱大手大脚了，以前网吧包夜都是喝自来水，现在敢喝红茶了，还是一晚上买两瓶，甚至打电话出去叫炒河粉而且还要加个鸡蛋，我觉得现在有点迷失自我，有什么办法？希望能回到初心！",
                         children: [
@@ -186,7 +208,7 @@
                         id: 20080144,
                         floor: 3,
                         liked: false,
-                        likes_count: 12,
+                        likes_count: 20,
                         note_id: 23054702,
                         user_id: 3160769,
                         user: {
@@ -196,7 +218,7 @@
                             nick_name: "yuebiubiu",
                             badge: null
                         },
-                        create_at: '2018-01-25T10:38:14.000+08:00',
+                        create_at:"2018-10-21T12:23:16.000+08:00",
                         children_count: 1,
                         compiled_content: "楼上评论的都是大佬啊",
                         children: [
@@ -227,21 +249,143 @@
                             nick_name: "z久睡成瘾",
                             badge: null
                         },
-                        create_at: '2018-01-30T09:38:14.000+08:00',
+                        create_at:"2018-10-22T13:23:16.000+08:00",
                         children_count: 0,
                         compiled_content: "我还没三千😂",
                         children: []
                     },
-                ]
+                ],
+                divValue:'',
+                isIndex:'',
+                prevComment:'',
+                emojiValue:'',
+                textarea:'',
+                prevName:'',
+                thumbsNumber:false,
+                isactive1:true,
+                isactive2:false,
+                isactive3:false
             }
         },
         methods: {
             selectEmoji(code){
-                this.showEmoji = false
+                this.showEmoji = false;
                 this.value += code
+            },
+            selectEmojiTwo(code){
+                console.log()
+                this.emojiValue = false;
             },
             sendData(){
                 console.log('发送value值得数据给后端')
+            },
+            newComment(value){
+                let div = document.getElementById(value);
+                let area = document.getElementById('text-'+value)
+                if(area.innerHTML == ''){
+                    if(div.style.display != 'block'){
+                        div.style.display = 'block'
+                    }else{
+                        div.style.display = 'none'
+                    }
+                }else{
+                    area.innerHTML = '';
+                    div.style.display = 'block'
+                }
+            },
+            closeComment(value){
+                let div = document.getElementById(value);
+                let area = document.getElementById('text-'+value)
+                div.style.display = 'none'
+                area.innerHTML = '';
+            },
+            showEmojis(value){
+                if( !this.emojiValue){
+                    this.emojiValue = 'emoji-'+value
+                }else{
+                    this.emojiValue = null
+                }
+            },
+            back(value,name){
+                let div = document.getElementById(value);
+                let area = document.getElementById('text-'+value)
+                if(area.innerHTML == ''){
+                    div.style.display = 'block'
+                    area.innerHTML = '@'+name
+                    this.prevName = name
+                }else{
+                    if(this.prevName != name){
+                        area.innerText = '@'+name
+                        this.prevName = name
+                    }else{
+                        div.style.display = 'none'
+                        area.innerHTML = '';
+                        this.prevName = ''
+                    }
+                }
+            },
+            thumbs(value,index){
+                if(!this.thumbsNumber){
+                    let thumbsi = document.getElementById('th-'+value)
+                    let thumbss = document.getElementById('ths-'+value)
+                    thumbsi.className='fa fa-thumbs-up active'
+                    thumbss.className = 'active'
+                    ++this.comments[index].likes_count
+                    this.thumbsNumber = !this.thumbsNumber
+                }else{
+                    --this.comments[index].likes_count
+                    let thumbsi = document.getElementById('th-'+value)
+                    let thumbss = document.getElementById('ths-'+value)
+                    thumbsi.className='fa fa-thumbs-o-up'
+                    thumbss.className = ''
+                    this.thumbsNumber = !this.thumbsNumber
+                }
+
+            },
+            sorts(value){
+                if(value == 'like'){
+                    this.sort1()
+                    this.isactive1 = true;
+                    this.isactive2 = false;
+                    this.isactive3 = false;
+                }else if(value == 'time1'){
+                    this.sort2()
+                    this.isactive1 = false;
+                    this.isactive2 = true;
+                    this.isactive3 = false
+                }else{
+                    this.sort3()
+                    this.isactive1 = false
+                    this.isactive2 = false;
+                    this.isactive3 = true;
+                }
+            },
+            sort1(){
+                for(var i = 0;i<this.comments.length - 1;i++){
+                    for(var j = 0;j<this.comments.length-1 -i ;j++ ){
+                        if(this.comments[j].likes_count < this.comments[j+1].likes_count){
+                            [this.comments[j],this.comments[j+1]] = [this.comments[j+1],this.comments[j]]
+                        }
+                    }
+                }
+            },
+            sort2(){
+                for(var i = 0;i<this.comments.length - 1;i++){
+                    for(var j = 0;j<this.comments.length -1-i ;j++ ){
+                        if(this.comments[j].floor > this.comments[j].floor ){
+                            [this.comments[j],this.comments[j+1]] = [this.comments[j+1],this.comments[j]]
+                        }
+                    }
+                }
+            },
+            sort3(){
+                for(var i = 0;i<this.comments.length - 1;i++){
+                    for(var j = 0;j<this.comments.length -1 -i;j++ ){
+                        if(this.comments[j].floor < this.comments[j].floor ){
+                            [this.comments[j],this.comments[j+1]] = [this.comments[j+1],this.comments[j]]
+                        }
+                    }
+                }
             }
         },
         components: {
@@ -250,10 +394,6 @@
     }
 </script>
 <style>
-    .d-none{
-        width: 500px;
-        height: 500px;
-    }
     .fade-enter-active, .fade-leave-active {
         opacity: 1;
         transition: .3s;
@@ -418,9 +558,21 @@
         color:#969696 !important;
         margin-right: 10px;
     }
+    .note .post .comment-list .comment .tool-group a:first-child:hover i{
+        color:#ea6f5a!important;
+    }
+    .note .post .comment-list .comment .tool-group a:first-child:hover span{
+        color:#2f2f2f!important;
+    }
     .note .post .comment-list .comment .tool-group a i{
         font-size: 18px;
         margin-right: 5px;
+    }
+    .note .post .comment-list .comment .tool-group a i.active{
+        color:#ea6f5a!important;
+    }
+    .note .post .comment-list .comment .tool-group a span.active{
+        color:#232323!important;
     }
     .note .post .comment-list .comment .tool-group a span{
         font-size: 14px;
@@ -457,11 +609,16 @@
     .note .post .comment-list .more-comment{
         color:#969696;
         font-size: 14px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
     }
     .note .post .comment-list .more-comment a:hover{
         color:#333 !important;
     }
     .note .post .comment-list .more-comment a i{
         margin-right:5px;
+    }
+    .note .post .comment-list .sub-comment-list .commentTwo .new-comment{
+        margin: 10px 0;
     }
 </style>
