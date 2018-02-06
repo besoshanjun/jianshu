@@ -101,6 +101,10 @@
         font-size: 14px;
         font-weight: 700;
     }
+    .notification .main .comment-list li{
+        padding: 20px 0;
+        border-top:1px solid #f0f0f0;
+    }
     .notification .main .comment-list .avatar{
         display: inline-block;
         margin-right: 5px;
