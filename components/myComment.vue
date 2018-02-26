@@ -113,7 +113,7 @@
                         <!--显示表单-->
                         <transition :duration="300" name="fade">
                             <form class="new-comment" v-if="activeIndex.includes(index)">
-                                 <textarea placeholder="写下你的评论...">
+                                 <textarea placeholder="写下你的评论..." v-model="subCommentList[index]">
                                  </textarea>
                                     <div class="write-function-block clearfix">
                                         <div class="emoji-modal-wrap">
@@ -254,7 +254,24 @@
                     },
                 ],
                 activeIndex:[],
-                emojiIndex:[]
+                emojiIndex:[],
+                subCommentList:[]
+            }
+        },
+        directives: {
+            // 除了默认设置的核心指令( v-model 和 v-show ),Vue 也允许注册自定义指令。
+            // 对纯 DOM 元素进行底层操作
+            // 注册局部指令，在模板中任何元素上使用新的 v-focus 属性
+            "focus": {
+                // 钩子函数：bind inserted update componentUpdated unbind
+                // 钩子函数的参数：el，binding，vnode，oldVnode
+                bind:function(el,binding,vnode,oldVnode){
+                    el.focus();
+                },
+                inserted: function (el) {
+                    // 聚焦元素
+                    el.focus()
+                }
             }
         },
         methods: {
@@ -263,8 +280,15 @@
                 this.value += code
             },
             selectSubEmoji(code){
-               let area = event.path[event.path.length - 15][0];
-               area.innerHTML +=code;
+                //console.log(this.emojiIndex[0])
+                //当前下标
+                let index = this.emojiIndex[0]
+                if(this.subCommentList[index] == 'null'){
+                    this.subCommentList[index] = ''
+                }
+                this.subCommentList[index] +=code;
+                //关掉emoji弹出框
+                this.emojiIndex = [];
             },
             sendData(){
                 console.log('发送value值得数据给后端')
@@ -274,7 +298,12 @@
                     let index = this.activeIndex.indexOf(value)
                     this.activeIndex.splice(index,1);
                 }else{
+                    //清除掉表单内的内容
+                    this.subCommentList[value] = '';
+                    //将这个表情关掉
+                    this.emojiIndex = [];
                     this.activeIndex.push(value)
+
                 }
             },
             sendSubCommentData(value){
