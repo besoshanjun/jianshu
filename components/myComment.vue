@@ -6,7 +6,7 @@
                 <nuxt-link class="avatar" to="/u/123">
                     <img src="../assets/img/user.jpg">
                 </nuxt-link>
-                <textarea placeholder="写下你的评论" @focus="send= true" v-model="value">
+                <textarea v-focus="emojiFocus" placeholder="写下你的评论" @focus="send= true" v-model="value">
 
                 </textarea>
                 <transition :duration="300" name="fade">
@@ -23,7 +23,7 @@
                         </div>
                         <div class="hint">Ctrl+Enter</div>
                         <a href="javascript:void(0)" class="btn btn-send" @click="sendData">发送</a>
-                        <a href="javascript:void(0)" class="cancel" @click="send= false">取消</a>
+                        <a href="javascript:void(0)" class="cancel" @click="closeDate()">取消</a>
                     </div>
                 </transition>
             </form>
@@ -77,9 +77,9 @@
                         <div class="comment-wrap">
                             <p>{{comment.compiled_content}}</p>
                             <div class="tool-group">
-                                <a href="javascript:void(0)" @click="">
-                                    <i class="fa fa-thumbs-o-up" ></i>
-                                    <span >{{comment.likes_count}}人点赞</span>
+                                <a href="javascript:void(0)" @click="commentLike(index)" class="like-bottom zan-animation">
+                                    <i class="fa" :class="comment.liked?'fa-thumbs-up liked':'fa-thumbs-o-up'" ></i>
+                                    <span :class="comment.liked?'real-like':''">{{comment.likes_count}}人点赞</span>
                                 </a>
                                 <a href="javascript:void(0)" @click="showSubCommentForm(index,'top','')">
                                     <i class="fa fa-comment-o"></i>
@@ -208,7 +208,7 @@
                     {
                         id: 20080144,
                         floor: 3,
-                        liked: false,
+                        liked: true,
                         likes_count: 20,
                         note_id: 23054702,
                         user_id: 3160769,
@@ -261,6 +261,7 @@
                 subCommentList:[],
                 commentFormState:[],
                 commentId:[],
+                emojiFocus:false
             }
         },
         directives: {
@@ -291,7 +292,8 @@
         methods: {
             selectEmoji(code){
                 this.showEmoji = false;
-                this.value += code
+                this.value += code;
+                this.emojiFocus = true
             },
             selectSubEmoji(code){
                 //当前下标
@@ -308,6 +310,14 @@
             },
             sendData(){
                 console.log('发送value值得数据给后端')
+                this.send=false;
+                this.value='';
+                this.emojiFocus=false
+            },
+            closeDate(){
+                this.send=false;
+                this.value='';
+                this.emojiFocus=false
             },
             showSubCommentForm:function(index,id,name){
                let ID = id.toString()
@@ -320,7 +330,7 @@
                     //清除表单内容
                     this.subCommentList[index] = '';
                     //表情关掉
-                    this.emojiIndex = []
+                    this.emojiIndex = [];
                     if(!this.activeIndex.includes(index)){
                         this.activeIndex.push(index);
                     }
@@ -335,14 +345,14 @@
                 }
             },
             sendSubCommentData(value){
-                let index = this.activeIndex.indexOf(value)
-                this.activeIndex.splice(index,1);
+                this.activeIndex.splice(this.activeIndex.indexOf(value),1);
+                this.commentId[value]='';
                 //value是下标
-                console.log(this.subCommentList[value])
+//                console.log(this.subCommentList[value])
             },
             closeSubComment(value){
-                let index = this.activeIndex.indexOf(value)
-                this.activeIndex.splice(index,1);
+                this.activeIndex.splice(this.activeIndex.indexOf(value),1);
+                this.commentId[value]='';
             },
             showSubEmoji(value){
                 if(this.emojiIndex.includes(value)){
@@ -350,6 +360,16 @@
                 }else{
                     this.emojiIndex = []
                     this.emojiIndex.push(value)
+                }
+            },
+            commentLike(index){
+                this.comments[index].liked = !this.comments[index].liked
+                if(this.comments[index].liked){
+                    //点赞过的再点就是取消点赞
+                    this.comments[index].likes_count+=1
+                }else{
+                    //没有点赞的再点就是确认点赞
+                    this.comments[index].likes_count-=1
                 }
             }
         },
@@ -524,21 +544,21 @@
         color:#969696 !important;
         margin-right: 10px;
     }
-    .note .post .comment-list .comment .tool-group a:first-child:hover i{
-        color:#ea6f5a!important;
-    }
-    .note .post .comment-list .comment .tool-group a:first-child:hover span{
-        color:#2f2f2f!important;
-    }
     .note .post .comment-list .comment .tool-group a i{
         font-size: 18px;
         margin-right: 5px;
     }
-    .note .post .comment-list .comment .tool-group a i.active{
+    .note .post .comment-list .comment .tool-group a:first-child:hover i{
+        color:#ea6f5a;
+    }
+    .note .post .comment-list .comment .tool-group a:first-child:hover span{
+        color:#2f2f2f;
+    }
+    .note .post .comment-list .comment .tool-group a i.liked{
         color:#ea6f5a!important;
     }
-    .note .post .comment-list .comment .tool-group a span.active{
-        color:#232323!important;
+    .note .post .comment-list .comment .tool-group a span.real-like{
+        color:#2f2f2f!important;
     }
     .note .post .comment-list .comment .tool-group a span{
         font-size: 14px;
