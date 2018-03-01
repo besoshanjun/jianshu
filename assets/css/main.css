@@ -439,6 +439,21 @@ footer .jiesao img:nth-of-type(3){
     padding: 1px 7px;
     border: 1px solid #999;
 }
+.person .main-top button.follow{
+    color:#fff !important;
+    background-color: #42c02e;
+    border-radius:20px;
+    font-size: 12px;
+    padding: 1px 7px;
+}
+.person .main-top button.following{
+    color:#969696 !important;
+    background-color: #fff;
+    border-radius:20px;
+    font-size: 12px;
+    padding: 1px 7px;
+    border: 1px solid #999;
+}
 .note .post .article .author .meta{
     margin-top: 5px;
     font-size: 12px;
@@ -728,4 +743,631 @@ footer .jiesao img:nth-of-type(3){
     background: #eaeaea;
 }
 
-/*用户页面布局*/
+/************************个人主页页面布局**********************************************/
+.person .row {
+     padding-top: 30px;
+ }
+.person .main .main-top {
+     margin-bottom: 20px;
+ }
+.person .main .main-top .avatar {
+     float: left;
+     width: 80px;
+     height: 80px;
+     margin-left: -2px;
+ }
+.user-follow-button {
+     text-align: center;
+     border-radius: 40px;
+     font-weight: 400;
+     border: 1px solid transparent;
+     line-height: normal;
+     user-select: none;
+     pointer-events: auto !important;
+     cursor: pointer;
+     outline: none!important;
+ }
+/*.user-follow-button:hover {*/
+     /*background:rgb(61,185,34)!important;*/
+ /*}*/
+.user-follow-button span {
+     margin-left:2px;
+ }
+.user-follow-button.off {
+     color: #fff;
+     background-color: #42c02e;
+ }
+.person .main .main-top .btn, .person .main .main-top .user-follow-button {
+     float: right;
+     margin: 23px 0 23px 16px;
+     font-size: 15px;
+ }
+.person .main .main-top .user-follow-button {
+     padding: 8px 0;
+     width: 100px;
+ }
+.person .main .main-top .btn-hollow {
+     padding: 8px 0;
+     width: 90px;
+ }
+.btn-hollow {
+     border: 1px solid rgba(59,194,29,.7)!important;
+     color: #42c02e!important;
+ }
+.btn-hollow:hover {
+     color:#42c02e!important;
+     background:rgb(245,252,243);
+ }
+.btn-delete, .btn-gray, .btn-hollow {
+     padding: 4px 12px;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: normal;
+     border-radius: 40px!important;
+     background: none;
+ }
+.person .main .main-top .title {
+     padding: 5px 0 0 100px;
+ }
+.person .main .main-top .title i {
+     vertical-align: middle;
+     color:#3194d0;
+     font-size:17px;
+ }
+.person .main .main-top .title .name {
+     display: inline;
+     font-size: 21px;
+     font-weight: 700;
+     vertical-align: middle;
+ }
+.person .main .main-top .info {
+     margin-top: 5px;
+     padding-left: 100px;
+     font-size: 14px;
+ }
+.person .main .main-top .info ul {
+     font-size: 0;
+ }
+.person .main .main-top .info ul li {
+     display: inline-block;
+ }
+.person .main .main-top .info ul .meta-block {
+     font-size: 12px;
+     margin: 0 7px 6px 0;
+     padding: 0 7px 0 0;
+     border-right: 1px solid #f0f0f0;
+ }
+.person .main .main-top .info ul li:last-child .meta-block {
+     border-right:none;
+ }
+.person .main .main-top .info ul a, .person .main .main-top .info ul div {
+     color: #969696;
+ }
+.person .main .main-top .info ul p {
+     margin-bottom: -3px;
+     font-size: 15px;
+     color: #333;
+ }
+.trigger-menu {
+     margin-bottom: 20px;
+     border-bottom: 1px solid #f0f0f0;
+     font-size: 0;
+     list-style: none;
+ }
+.trigger-menu li {
+     position: relative;
+     display: inline-block;
+     padding: 8px 0;
+     margin-bottom: -1px;
+ }
+.trigger-menu a {
+     padding: 13px 20px;
+     font-size: 15px;
+     font-weight: 700;
+     color: #969696!important;
+     line-height: 25px;
+ }
+.trigger-menu i {
+     margin-right: 5px;
+     font-size: 17px;
+ }
+.trigger-menu li.active {
+     border-bottom: 2px solid #646464;
+ }
+.trigger-menu .active a, .trigger-menu a:hover {
+     color: #646464!important;
+ }
+.trigger-menu li:after {
+     content: "";
+     position: absolute;
+     left: 50%;
+     bottom: -2px;
+     width: 100%;
+     opacity: 0;
+     border-bottom: 2px solid #646464;
+     -webkit-transform: translate(-50%) scaleX(0);
+     transform: translate(-50%) scaleX(0);
+     transition: .2s ease-in-out
+ }
+.trigger-menu li:hover:after {
+     opacity: 1;
+     -webkit-transform: translate(-50%) scaleX(1);
+    transform: translate(-50%) scaleX(1);
+     transition: .2s ease-in-out
+ }
+.person .aside .title {
+     float: left;
+     margin-bottom: 10px;
+     font-size: 14px;
+     color: #969696;
+ }
+.person .aside .function-btn {
+     float: right;
+     font-size: 13px;
+     color: #969696;
+ }
+.person .aside .description, .person .aside .new-collection-block {
+     position: relative;
+     margin-bottom: 16px;
+     padding: 0 0 16px;
+     text-align: left;
+     font-size: 0;
+     border-bottom: 1px solid #f0f0f0;
+     clear: both;
+     word-break: break-word!important;
+     word-break: break-all;
+ }
+.person .aside .description .js-intro, .person .aside .new-collection-block .js-intro {
+     margin-bottom: 10px;
+     line-height: 20px;
+     font-size: 14px;
+ }
+.person .aside .user-dynamic {
+    padding-bottom: 6px;
+ }
+.person .aside .list {
+     margin-bottom: 16px;
+     padding-bottom: 16px;
+    list-style: none;
+     border-bottom: 1px solid #f0f0f0;
+     clear: both;
+ }
+.person .aside .list li {
+     margin-bottom: 10px;
+ }
+.person .aside .list li a {
+     display: inline-block;
+ }
+.person .aside .user-dynamic a {
+     font-size: 14px;
+     color: #333;
+     line-height: 30px;
+ }
+.person .aside a, .person .aside a:hover {
+     color: #3194d0;
+ }
+person .aside .list li a i {
+     vertical-align: middle;
+     margin-right: 5px;
+ }
+.person .aside .user-dynamic i {
+     margin-right: 10px;
+     font-size: 20px;
+     vertical-align: middle;
+ }
+.person .aside .user-dynamic span {
+     vertical-align: middle;
+ }
+.person .aside .title {
+     float: left;
+     margin-bottom: 10px;
+     font-size: 14px;
+     color: #969696;
+ }
+.person .aside .new-collection-btn {
+     font-size: 13px;
+     color: #42c02e!important;
+ }
+.person .aside .function-btn {
+     float: right;
+     font-size: 13px;
+     color: #969696;
+ }
+.person .aside .new-collection-btn i {
+     padding-right: 2px;
+ }
+.person .aside .list {
+     margin-bottom: 16px;
+     padding-bottom: 16px;
+     list-style: none;
+     border-bottom: 1px solid #f0f0f0;
+     clear: both;
+ }
+.person .aside .avatar, .person .aside .avatar-collection {
+     margin-right: 5px;
+     width: 32px;
+     height: 32px;
+ }
+.avatar-collection img {
+     width: 100%;
+     height: 100%;
+    border: 1px solid #ddd;
+     border-radius: 10%;
+ }
+.person .aside .name {
+     position: relative;
+     max-width: 236px;
+     vertical-align: middle;
+     top: 1px;
+     font-size: 14px;
+     color: #333;
+ }
+.person .aside .list li a i {
+     color:#969696;
+     font-size:25px;
+     vertical-align: middle;
+     margin-right: 5px;
+ }
+.note-list .meta span {
+     margin-right: 10px;
+     color: #b4b4b4;
+ }
+.note-list .meta a {
+     margin-right: 10px;
+     color: #b4b4b4;
+ }
+.note-list .comment {
+     font-size: 15px;
+     line-height: 1.7;
+ }
+.note-list blockquote {
+     margin-bottom: 0;
+     color: #969696;
+     border-left: 3px solid #d9d9d9;
+     padding: 10px 20px;
+     margin: 0 0 20px;
+     font-size: 17.5px;
+ }
+.note-list blockquote .title {
+     display:block;
+     margin: 0 0 4px;
+     font-size: 15px;
+     color:#333!important;
+ }
+.note-list blockquote .abstract {
+     margin: 0 0 4px;
+ }
+.note-list .origin-author {
+     display: inline;
+     margin-bottom: 5px;
+     font-size: 12px;
+     color: #969696!important;
+ }
+.note-list .origin-author a {
+     margin-right: 5px;
+     color: #3194d0!important;
+ }
+
+.note-list .origin-author a {
+     color: #3194d0!important;
+ }
+.note-list .follow-detail {
+     padding: 20px;
+     background-color: hsla(0,0%,71%,.1);
+     border: 1px solid #e1e1e1;
+     border-radius: 4px;
+     font-size: 12px;
+ }
+.note-list .follow-detail .avatar, .note-list .follow-detail .avatar-collection {
+     float: left;
+     margin-right: 10px;
+     width: 48px;
+     height: 48px;
+ }
+.note-list .follow-detail .btn {
+     float: right;
+     margin-top: 4px;
+     padding: 8px 0;
+     width: 100px;
+ }
+.note-list .follow-detail .follow {
+     border-radius: 40px;
+     color: #fff!important;
+    background-color: #42c02e;
+ }
+.note-list .follow-detail .follow span {
+     margin-left:5px;
+ }
+.note-list .follow-detail .info {
+     display:block;
+ }
+.note-list .follow-detail .info .title {
+    margin: 0;
+     font-size: 17px;
+     font-weight: 400;
+ }
+.note-list .follow-detail .info p {
+     margin-bottom: 0;
+    color: #969696;
+ }
+.note-list .follow-detail .signature {
+     margin-top: 20px;  padding-top: 20px;
+     border-top: 1px solid #e1e1e1;
+    color: #969696;
+    overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+.avatar-collection img {
+     width: 100%;
+     height: 100%;
+     border: 1px solid #ddd;
+     border-radius: 10%;
+ }
+.note-list .follow-detail .creater, .note-list .follow-detail .creater:hover {
+     color: #3194d0;
+ }
+/*******************创建专题页面*************************/
+.person .aside .profile-edit textarea{
+    margin-bottom:5px;
+    width: 100%;
+    height: 125px;
+    padding:5px 10px;
+    font-size:14px;
+    background-color: rgba(181,181,181,0.098);
+    border:1px solid #c8c8c8;
+    border-radius:4px;
+    resize:none;
+    outline:none;
+}
+.person .aside .profile-edit .btn-hollow{
+    padding:5px 20px;
+    font-size: 14px;
+    border:1px solid rgba(59,194,29,.7);
+    color:#42c02e!important;
+    border-radius: 40px;
+    background: none;
+    cursor: pointer;
+}
+.person .aside .profile-edit .btn-hollow:hover{
+    background-color: rgb(245,252,243);
+}
+.person .aside .profile-edit a{
+    margin-left: 10px;
+    font-size: 14px;
+    color:#969696!important;
+    line-height: 34px;
+    vertical-align: middle;
+}
+.person .aside .profile-edit a:hover{
+    color:#2f2f2f!important;
+}@media(max-width:750px){
+    .new-collection .main{
+        margin: 0;
+    }
+    .new-collection td{
+        display: block;
+        width: calc(100vw - 50px);
+        padding:0 0 10px!important;
+    }
+}
+/*************************关注的专题及其文集*********************/
+/*********************关注的专题以及文集********************/
+.person .main .user-list {
+    list-style: none;
+    clear: both;
+}
+.person .main .user-list li:first-child {
+    padding-top: 0!important;
+}
+.person .main .user-list li {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: normal;
+}
+.person .main .user-list .avatar, .person .main .user-list .avatar-collection {
+    width: 52px;
+    height: 52px;
+    margin-right: 8px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.person .main .user-list .info {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 450px;
+}
+.person .main .user-list .info a, .person .main .user-list .name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+}
+.person .main .user-list .meta {
+    padding-top: 2px;
+    font-size: 12px;
+    color: #969696;
+}
+.person .main .user-list .follow, .person .main .user-list .follow-cancel, .person .main .user-list .follow-each, .person .main .user-list .following, .person .main .user-list .user-follow-button-item {
+    float: right;
+    margin-top: 8px;
+    padding: 8px 0;
+    width: 100px;
+    font-size: 15px;
+    background-color: #42c02e;
+}
+.person .main .user-list .btn-success {
+    color:#fff!important;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 40px;
+}
+.person .main .user-list .btn-success:hover {
+    background: rgb(61,185,34)!important;
+}
+.person .main .user-list .btn-success span {
+    margin-left:2px;
+}
+
+/**********************专题页面*****************************/
+.collection .row {
+    padding-top:30px;
+}
+.collection .main .main-top {
+    margin-bottom: 35px;
+}
+.collection .main .main-top .avatar-collection {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.avatar-collection img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+}
+.collection .main .main-top .follow, .collection .main .main-top .follow-cancel, .collection .main .main-top .follow-each, .collection .main .main-top .following {
+    padding: 8px 0;
+    width: 100px;
+}
+.collection .main .main-top .btn {
+    float: right;
+    margin: 23px 0 23px 16px;
+    font-size: 15px;
+}
+.collection .main .main-top .btn-hollow {
+    padding: 8px 0;
+    width: 90px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 40px;
+    background: none;
+    border: 1px solid rgba(59,194,29,.7);
+}
+.collection .main .main-top .btn-hollow:hover {
+    background: rgb(245,252,243);
+}
+.collection .main .main-top .btn {
+    float: right;
+    margin: 23px 0 23px 16px;
+    font-size: 15px;
+}
+.collection .main .main-top .btn-success {
+    color:#fff!important;
+    background:#42c02e;
+    border-radius: 40px;
+}
+.collection .main .main-top .btn-success:hover {
+    background: rgb(61,185,34)!important;
+}
+.collection .main .main-top .title {
+    padding: 10px 0 0 100px;
+}
+.collection .main .main-top .title .name {
+    display: inline;
+    font-size: 21px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.collection .main .main-top .info {
+    margin-top: 10px;
+    padding-left: 100px;
+    font-size: 14px;
+    color: #969696;
+}
+.collection .aside .title {
+    float: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #969696;
+}
+.collection .aside .description {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0 0 16px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #f0f0f0;
+    clear: both;
+    word-break: break-word!important;
+    word-break: break-all;
+}
+.collection .aside .share {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 30px;
+}
+.collection .aside .share span {
+    font-size: 14px;
+    vertical-align: middle;
+}
+.collection .aside .share .option {
+    margin-left: 10px;
+    color: #333;
+}
+.collection .aside .share i {
+    font-size: 22px;
+    vertical-align: middle;
+}
+.collection .aside .list {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid #f0f0f0;
+    clear: both;
+}
+.collection .aside .list li {
+    margin-bottom: 10px;
+}
+.collection .aside .list li a {
+    display: inline-block;
+}
+.collection .aside .avatar, .collection .aside .avatar-collection {
+    margin-right: 5px;
+    width: 32px;
+    height: 32px;
+}
+.collection .aside a, .collection .aside a:hover {
+    color: #3194d0;
+}
+.collection .aside .name {
+    position: relative;
+    max-width: 236px;
+    vertical-align: middle;
+    top: 1px;
+    font-size: 14px;
+    color: #333;
+}
+.collection .aside .tag {
+    padding: 1px 3px;
+    margin-left: 2px;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #969696;
+    border: 1px solid #969696;
+}
+.collection .aside .list {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    list-style: none;
+    border-bottom: 1px solid #f0f0f0;
+    clear: both;
+}
+.collection .aside .list.collection-follower li {
+    display: inline-block;
+}
+.collection .aside .list.collection-follower li:first-child {
+    margin-left: -3px;
+}
+.collection .aside .list li {
+    margin-bottom: 10px;
+}
+.collection .aside .list.collection-follower li a {
+    margin-right: -10px;
+}
+.collection .aside .list.collection-follower li img {
+    border: 3px solid #fff;
+    background-color: #fff;
+}

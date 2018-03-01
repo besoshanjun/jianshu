@@ -42,7 +42,7 @@
                 <div>
                 </div>
                 <!--留言的正文-->
-                <div style="display: none" class="comment-placeholder">
+                <div class="comment-placeholder">
                     <div class="author">
                         <div class="acatar"></div>
                         <div class="info">
@@ -77,7 +77,7 @@
                         <div class="comment-wrap">
                             <p>{{comment.compiled_content}}</p>
                             <div class="tool-group">
-                                <a href="javascript:void(0)" @click="commentLike(index)" class="like-bottom zan-animation">
+                                <a href="javascript:void(0)" @click="commentLike(index)">
                                     <i class="fa" :class="comment.liked?'fa-thumbs-up liked':'fa-thumbs-o-up'" ></i>
                                     <span :class="comment.liked?'real-like':''">{{comment.likes_count}}人点赞</span>
                                 </a>

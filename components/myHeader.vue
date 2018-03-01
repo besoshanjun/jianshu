@@ -11,43 +11,43 @@
                     写文章
                 </nuxt-link>
                 <!--登录和注册按钮-->
-                <nuxt-link to="/sign-up" class="btn sign-up">注册</nuxt-link>
-                <nuxt-link to="/sign-in" class="btn sign-in">登录</nuxt-link>
+                <!--<nuxt-link to="/sign-up" class="btn sign-up">注册</nuxt-link>-->
+                <!--<nuxt-link to="/sign-in" class="btn sign-in">登录</nuxt-link>-->
                 <!--如果用户登录，那么显示用户头像-->
                 <div class="user" @mouseover="userShow=true" @mouseout="userShow=false">
                     <div class="drop-down">
-                        <nuxt-link class="avatar" to="/users">
+                        <nuxt-link class="avatar" to="/u/123">
                             <img src="../assets/img/user.jpg">
                         </nuxt-link>
                     </div>
                     <div class="drop-menu" v-show="userShow">
                         <ul>
                             <li>
-                                <nuxt-link to="/">
+                                <nuxt-link to="/u/123">
                                     <i class="fa fa-user"></i>
                                     我的主页
                                 </nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/">
+                                <nuxt-link to="/bookmarks">
                                     <i class="fa fa-bookmark"></i>
                                     收藏的文章
                                 </nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/">
+                                <nuxt-link to="/users/123/like">
                                     <i class="fa fa-heart"></i>
                                     喜欢的文章
                                 </nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/">
+                                <nuxt-link to="/settings">
                                     <i class="fa fa-cog"></i>
                                     设置
                                 </nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/">
+                                <nuxt-link to="/logout">
                                     <i class="fa fa-sign-out"></i>
                                     退出
                                 </nuxt-link>
@@ -78,31 +78,31 @@
                             <div class="drop-menu" v-if="notifyShow">
                                 <ul>
                                     <li>
-                                        <nuxt-link to="/message">
+                                        <nuxt-link to="/notify/comments">
                                             <i class="fa fa-comment-o"></i>
                                             评论
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/message">
+                                        <nuxt-link to="/notify/chats">
                                             <i class="fa fa-envelope-open-o"></i>
                                             简信
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/message">
+                                        <nuxt-link to="/notify/requests">
                                             <i class="fa fa-upload"></i>
                                             投稿请求
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/message">
+                                        <nuxt-link to="/notify/likes">
                                             <i class="fa fa-heart-o"></i>
                                             喜欢和赞
                                         </nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/message">
+                                        <nuxt-link to="/notify/follows">
                                             <i class="fa fa-user-o"></i>
                                             关注
                                         </nuxt-link>
