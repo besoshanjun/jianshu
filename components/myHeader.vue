@@ -173,6 +173,7 @@
         background-color: #ea6f5a;
         color: #fff !important;
         border-radius: 20px;
+        margin: 8px 15px 0;
     }
     nav a.write-btn:hover {
         background: #ec6149;
