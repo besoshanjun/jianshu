@@ -45,7 +45,7 @@
                             <img src="../assets/img/z-2.jpg">
                             <span>社会热点</span>
                         </nuxt-link>
-                        <nuxt-link to="/" class="more-hot-collection">
+                        <nuxt-link to="/recommendations" class="more-hot-collection">
                             更多热门专题
                             <i class="fa fa-chevron-right"></i>
                         </nuxt-link>
@@ -285,7 +285,7 @@
                                 </p>
                             </li>
                         </ul>
-                        <nuxt-link to="/" class="find-more">
+                        <nuxt-link to="/recommendations" class="find-more">
                             查看全部
                             <i class="fa fa-angle-right"></i>
                         </nuxt-link>

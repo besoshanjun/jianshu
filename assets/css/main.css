@@ -28,7 +28,7 @@ html, body {
     padding-top: 56px;
     background: #fff;
 }
-a, a:hover, a:focus {
+a, a:focus {
     text-decoration: none !important;
     color: inherit !important;
 }
@@ -424,20 +424,42 @@ footer .jiesao img:nth-of-type(3){
     margin-right: 3px;
     font-size: 16px;
 }
-.note .post .article .follow{
-    color:#fff !important;
-    background-color: #42c02e;
-    border-radius:20px;
-    font-size: 12px;
-    padding: 1px 7px;
-}
-.note .post .article .following{
+/*.note .post .article .follow{*/
+    /*color:#fff !important;*/
+    /*background-color: #42c02e;*/
+    /*border-radius:20px;*/
+    /*font-size: 12px;*/
+    /*padding: 1px 7px;*/
+/*}*/
+/*.note .post .article .following{*/
+    /*color:#969696 !important;*/
+    /*background-color: #fff;*/
+    /*border-radius:20px;*/
+    /*font-size: 12px;*/
+    /*padding: 1px 7px;*/
+    /*border: 1px solid #999;*/
+/*}*/
+.following{
     color:#969696 !important;
     background-color: #fff;
-    border-radius:20px;
+    border-radius:20px !important;
     font-size: 12px;
     padding: 1px 7px;
     border: 1px solid #999;
+}
+.follow{
+    text-align: center;
+    color:#fff !important;
+    background-color: #42c02e;
+    border-radius:20px !important;
+    font-size: 12px;
+    padding: 1px 7px;
+}
+.following span,.following i{
+    color: inherit;
+}
+.follow span,.follow i{
+    color: inherit;
 }
 .person .main-top button.follow{
     color:#fff !important;
@@ -1370,4 +1392,353 @@ person .aside .list li a i {
 .collection .aside .list.collection-follower li img {
     border: 3px solid #fff;
     background-color: #fff;
+}
+/******************************热门推荐*******************************/
+.recommend {
+    position: relative;
+    padding: 30px 0 50px;
+    text-align: center;
+}
+.recommend-banner {
+    width: 100%;
+    min-height: 100px;
+    background-color: hsla(0,0%,71%,.2);
+    border-radius: 6px;
+}
+.recommend .btn-danger {
+    color:#fff!important;
+    width: 38.2%;
+    padding: 10px 0;
+    margin: 40px 0;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #a5a5a5;
+    border: none;
+}
+.recommend .btn-danger:hover {
+    background-color: #9b9b9b
+}
+.recommend .collection-wrap, .recommend .wrap {
+    height: 280px;
+    margin-top: 80px;
+    padding: 0 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    background-color: hsla(0,0%,71%,.1);
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    -ms-transition: .2s ease;
+}
+.recommend .collection-wrap:hover,.recommend .wrap:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,.1)
+}
+.avatar-collection {
+    width: 48px;
+    height: 48px;
+    display: block;
+    cursor: pointer;
+}
+.recommend .collection-wrap .avatar-collection, .recommend .wrap .avatar-collection {
+    border-radius: 8px;
+}
+.recommend .collection-wrap .avatar, .recommend .wrap .avatar {
+    border-radius: 40px;
+}
+.recommend .collection-wrap .avatar, .recommend .collection-wrap .avatar-collection, .recommend .wrap .avatar, .recommend .wrap .avatar-collection {
+    width: 80px;
+    height: 80px;
+    margin: -40px 0 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.recommend .collection-wrap h4, .recommend .wrap h4 {
+    font-size: 21px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.recommend .collection-wrap .collection-description, .recommend .wrap .collection-description {
+    min-height: 55px;
+}
+.recommend .collection-wrap .collection-description, .recommend .collection-wrap .description, .recommend .wrap .collection-description, .recommend .wrap .description {
+    min-height: 50px;
+    font-size: 13px;
+    line-height: 25px;
+}
+.recommend .collection-wrap .btn, .recommend .wrap .btn {
+    width: 100px;
+    padding: 8px 0;
+}
+.recommend .collection-wrap .follow {
+    border-color: #42c02e;
+    padding: 8px 22px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 40px;
+    color: #fff!important;
+    background-color: #42c02e;
+}
+.recommend .collection-wrap .follow:hover {
+    background-color: #3db922;
+    border-color: #3db922!important;
+}
+.recommend .collection-wrap .follow span {
+    margin-left:2px;
+}
+.recommend .collection-wrap .count, .recommend .wrap .count {
+    font-size: 14px;
+}
+.recommend .collection-wrap .meta, .recommend .wrap .meta {
+    float: left;
+    margin-top: -29px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #969696;
+    background-color: #f8f8f8;
+}
+.recommend .collection-wrap .recent-update, .recommend .wrap .recent-update {
+    min-height: 75px;
+}
+.recommend .collection-wrap .new, .recommend .wrap .new {
+    font-size: 13px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.recommend .collection-wrap h4 i, .recommend .wrap h4 i {
+    margin-right: -5px;
+    vertical-align: middle;
+}
+/******************************************收藏的文章**********************************/
+@media (max-width: 1080px){
+    .recommend-banner, .tag-banner {
+        min-height: 78px;
+        border-radius: 4px;
+    }
+}
+.bookmarks .row {
+    padding-top: 30px;
+}
+.tag-banner {
+    margin-bottom: 30px;
+    width: 100%;
+    min-height: 100px;
+    background-color: hsla(0,0%,71%,.2);
+    border-radius: 6px;
+}
+
+/********/
+.asideActive{
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+/*******************************消息页面布局**********************************/
+.notify .row {
+    padding: 30px 0;
+}
+.notify .row .main{
+    padding: 0;
+}
+.notify .main .menu {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.notify .main .comment-list li,
+.notify .main .follow-list li,
+.notify .main .like-list li{
+    padding:20px;
+    border-top: 1px solid #f0f0f0;
+}
+.notify .main .comment-list .avatar,
+.notify .main .follow-list .avatar,
+.notify .main .like-list .avatar{
+    display: inline-block;
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+.notify .main .comment-list .info,
+.notify .main .follow-list .info,
+.notify .main .like-list .info{
+    display: inline-block;
+    vertical-align: middle;
+    line-height:1.7;
+}
+.notify .main .comment-list .info .user,
+.notify .main .follow-list .info .user,
+.notify .main .like-list .info .user{
+    margin: 0 5px 0 0;
+    color:#333!important;
+    font-size: 15px;
+}
+.notify .main .comment-list .info .comment-slogan{
+    font-size: 15px;
+    color:#333;
+}
+.notify .main .comment-list .info a,
+.notify .main .follow-list .info a,
+.notify .main .like-list .info a{
+    font-size: 15px;
+    color:#3194d0!important;
+}
+.notify .main .comment-list .time,
+.notify .main .follow-list .time,
+.notify .main .like-list .time{
+    margin-top: 2px;
+    font-size: 12px;
+    color:#969696;
+    line-height: normal;
+}
+.notify .main .comment-list p{
+    margin: 10px 0 0;
+    font-size: 15px;
+    line-height:1.7;
+}
+.notify .main .comment-list .meta{
+    margin-top: 10px;
+    height: 20px;
+}
+.notify .main .comment-list .meta .function-btn{
+    float:left;
+    margin-right: 30px;
+    font-size: 13px;
+    color:#969696 !important;
+}
+.notify .main .comment-list .meta .function-btn i{
+    margin-right: 5px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.notify .main .jianxin-list li{
+    position: relative;
+}
+.notify .main .jianxin-list .pull-right{
+    margin:20px 20px 0 0;
+    font-size: 13px;
+}
+.pull-right{
+    float:right!important;
+}
+.notify .main .jianxin-list .pull-right .time{
+    color:#969696;
+}
+.notify .main .jianxin-list .pull-right div{
+    display: inline;
+}
+.open>a{
+    outline: 0;
+}
+.notify .main .dropdown-menu{
+    top:auto;
+    left:auto;
+    right:15px;
+    color:#333;
+    min-width:inherit;
+    display: block;
+}
+.notify .main .jianxin-list .dropdown-menu a{
+    padding:10px 20px;
+}
+.notify .main .dropdown-menu{
+    float:left;
+    padding:5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    box-shadow:0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+}
+.dropdown-menu>li>a{
+    display: block;
+    padding:3px 20px;
+    clear:both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color:#333;
+    white-space:nowrap;
+}
+.notify .dropdown-menu li:hover{
+    background-color: #f0f0f0;
+}
+.notify .main .jianxin-list .avatar{
+    float: left;
+    margin: 20px 10px 20px 20px;
+    width: 48px;
+    height: 48px;
+}
+.notify .main .jianxin-list .name{
+    position: absolute;
+    top:25px;
+    font-size: 15px;
+}
+.notify .main .jianxin-list .wrap{
+    display: block;
+    padding: 20px 20px 20px 0;
+    min-height:88px;
+}
+.notify .main .jianxin-list p{
+    margin: 28px 0 0;
+    font-size: 12px;
+    color:#999;
+    overflow: hidden;text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.notify .main .push-list li{
+    border-top: 1px solid #f0f0f0;
+}
+.notify .main .push-list .wrap{
+    padding: 20px;
+    display: block;;
+}
+.notify .main .push-list .all-push{
+    position: relative;
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.notify .main .push-list .all-push i{
+    margin-top: 14px;
+    font-size: 25px;
+    color:#ea6f5a;
+    display: block;
+}
+.notify .main .push-list .name{
+    max-width: 500px;
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+.notify .main .comment-list .info .middle,
+.notify .main .follow-list .info .middle,
+.notify .main .like-list .info .middle{
+    margin: 0 5px;
+}
+.notify .main .follow-list .btn{
+    padding: 8px 0;
+    width: 100px;
+    float:right;
+    font-size: 15px;
+    box-shadow: none;
+    border:1px solid #969696;
+}
+.following span{
+    margin-left: 2px;
+    display: inline;
 }

@@ -41,7 +41,7 @@
                                 </nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/settings">
+                                <nuxt-link to="/settings/basic">
                                     <i class="fa fa-cog"></i>
                                     设置
                                 </nuxt-link>
@@ -71,7 +71,7 @@
                             </nuxt-link>
                         </li>
                         <li class="notify" @mouseover="notifyShow=true" @mouseleave="notifyShow=false">
-                            <nuxt-link to="/message">
+                            <nuxt-link to="/notify/comments">
                                 <i class="fa fa-bell-o"></i>
                                 <span>消息</span>
                             </nuxt-link>

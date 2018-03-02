@@ -2,920 +2,30 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/pages/index.vue" line="362" />
+    <bookmark url="file://$PROJECT_DIR$/components/Message.vue" line="34" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e57bd8b-d2fd-40a7-9f71-295a092b02ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/avatar-collection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/bookmarks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/ceshi1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/ceshi2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/ceshi3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/comment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/a-100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/a-1234.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/a-8ball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/abc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/abcd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/accept.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/aerial_tramway.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/agree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/airplane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/alarm_clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/alien.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ambulance.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/anchor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/angel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/anger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/angry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/anguished.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/aquarius.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/aries.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_backward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_double_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_double_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_down_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_heading_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_heading_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_lower_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_lower_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_right_hook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_up_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_up_small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_upper_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrow_upper_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrows_clockwise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/arrows_counterclockwise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/art.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/articulated_lorry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/astonished.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/atm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/baby.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/baby_bottle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/baby_chick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/baby_symbol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/baggage_claim.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/balloon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ballot_box_with_check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bamboo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/banana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bangbang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bar_chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/barber.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/baseball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/basketball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bath.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bathtub.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/battery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/beer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/beers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/beetle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/beginner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bento.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bicyclist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bikini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bird.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/birthday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_joker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_medium_small_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_medium_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_nib.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_small_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/black_square_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/blossom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/blowfish.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/blue_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/blue_car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/blue_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/blush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/boar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/boat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bomb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bookmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bookmark_tabs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/books.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/boom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/boot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bouquet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bowling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bowtie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/boy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bread.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bride_with_veil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bridge_at_night.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/briefcase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/broken_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bulb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bullettrain_front.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bullettrain_side.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/busstop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/bust_in_silhouette.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/busts_in_silhouette.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cactus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/calling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/camel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cancer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/candy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/capital_abcd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/capricorn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/card_index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/carousel_horse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cat2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/chart_with_downwards_trend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/chart_with_upwards_trend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/checkered_flag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cherries.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cherry_blossom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/chestnut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/chicken.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/children_crossing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/chocolate_bar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/christmas_tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/church.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cinema.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/circus_tent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/city_sunrise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/city_sunset.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clapper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clipboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock1030.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock1130.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock12.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock1230.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock130.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock230.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock330.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock430.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock530.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock630.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock730.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock830.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clock930.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/closed_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/closed_lock_with_key.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/closed_umbrella.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cloud.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/clubs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cocktail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/coffee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cold_sweat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/collision.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/computer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/confetti_ball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/confounded.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/confused.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/congratulations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/construction.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/construction_worker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/convenience_store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cookie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cool.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/copyright.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/corn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/couple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/couple_with_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/couplekiss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cow2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/credit_card.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/crescent_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/crocodile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/crossed_flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/crown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/crying_cat_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/crystal_ball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cupid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/curly_loop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/currency_exchange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/curry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/custard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/customs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/cyclone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dancer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dancers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dango.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/date.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/de.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/deciduous_tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/department_store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/diamond_shape_with_a_dot_inside.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/diamonds.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/disappointed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/disappointed_relieved.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dizzy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dizzy_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/do_not_litter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dog2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dollar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dolls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dolphin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/donut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/door.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/doughnut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dragon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dragon_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dromedary_camel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/droplet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/dvd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/e-mail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ear_of_rice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/earth_africa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/earth_americas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/earth_asia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/egg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/eggplant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/eight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/eight_pointed_black_star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/eight_spoked_asterisk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/electric_plug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/elephant.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/emoji-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/end.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/envelope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/es.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/euro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/european_castle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/european_post_office.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/evergreen_tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/exclamation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/expressionless.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/eyeglasses.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/eyes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/facepunch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/factory.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fallen_leaf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/family.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fast_forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fax.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fearful.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/feelsgood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/feet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ferris_wheel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/file_folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/finnadie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fire_engine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fireworks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/first_quarter_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/first_quarter_moon_with_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fish.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fish_cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fishing_pole_and_fish.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/five.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/flashlight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/floppy_disk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/flower_playing_cards.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/flushed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/foggy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/football.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fork_and_knife.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fountain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/four.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/four_leaf_clover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/free.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fried_shrimp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fries.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/frog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/frowning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/fuelpump.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/full_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/full_moon_with_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/game_die.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/gb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/gem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/gemini.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ghost.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/gift.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/gift_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/girl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/globe_with_meridians.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/goat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/goberserk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/godmode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/golf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/grapes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/green_apple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/green_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/green_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/grey_exclamation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/grey_question.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/grimacing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/grin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/grinning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/guardsman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/guitar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/gun.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/haircut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hamburger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hammer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hamster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/handbag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hankey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hatched_chick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hatching_chick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/headphones.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hear_no_evil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heart_decoration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heart_eyes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heart_eyes_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heartbeat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heartpulse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heavy_check_mark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heavy_division_sign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heavy_dollar_sign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heavy_exclamation_mark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heavy_minus_sign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heavy_multiplication_x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/heavy_plus_sign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/helicopter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/herb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hibiscus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/high_brightness.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/high_heel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hocho.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/honey_pot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/honeybee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/horse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/horse_racing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hospital.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hotel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hotsprings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hourglass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hourglass_flowing_sand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/house.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/house_with_garden.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hurtrealbad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/hushed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ice_cream.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/icecream.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/id.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ideograph_advantage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/imp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/inbox_tray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/incoming_envelope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/information_desk_person.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/information_source.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/innocent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/interrobang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/it.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/izakaya_lantern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/jack_o_lantern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/japan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/japanese_castle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/japanese_goblin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/japanese_ogre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/jeans.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/joy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/joy_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/jp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/key.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/keycap_ten.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kimono.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kiss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kissing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kissing_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kissing_closed_eyes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kissing_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kissing_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kissing_smiling_eyes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/koala.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/koko.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/kr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/large_blue_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/large_blue_diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/large_orange_diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/last_quarter_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/last_quarter_moon_with_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/laughing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/leaves.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ledger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/left_luggage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/left_right_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/leftwards_arrow_with_hook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/lemon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/leo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/leopard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/libra.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/light_rail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/lips.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/lipstick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/lock_with_ink_pen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/lollipop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/loop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/loudspeaker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/love_hotel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/love_letter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/low_brightness.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/m.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mag_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mahjong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mailbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mailbox_closed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mailbox_with_mail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mailbox_with_no_mail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/man_with_gua_pi_mao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/man_with_turban.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mans_shoe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/maple_leaf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/massage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/meat_on_bone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mega.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/melon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/memo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mens.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/metal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/metro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/microphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/microscope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/milky_way.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/minibus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/minidisc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mobile_phone_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/money_with_wings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/moneybag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/monkey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/monkey_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/monorail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mortar_board.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mount_fuji.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mountain_bicyclist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mountain_cableway.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mountain_railway.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mouse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mouse2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/movie_camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/moyai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/muscle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mushroom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/musical_keyboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/musical_note.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/musical_score.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/mute.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/nail_care.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/name_badge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/neckbeard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/necktie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/negative_squared_cross_mark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/neutral_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/new_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/new_moon_with_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/newspaper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/nine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_bell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_bicycles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_entry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_entry_sign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_good.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_mobile_phones.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_mouth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_pedestrians.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/no_smoking.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/non-potable_water.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/nose.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/notebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/notebook_with_decorative_cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/notes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/nut_and_bolt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/o2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ocean.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/octocat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/octopus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/oden.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/office.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ok_hand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ok_woman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/older_man.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/older_woman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/oncoming_automobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/oncoming_bus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/oncoming_police_car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/oncoming_taxi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/one.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/open_file_folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/open_hands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/open_mouth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ophiuchus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/orange_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/outbox_tray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/package.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/page_facing_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/page_with_curl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pager.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/palm_tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/panda_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/paperclip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/parking.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/part_alternation_mark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/partly_sunny.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/passport_control.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/paw_prints.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/peach.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pencil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pencil2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/penguin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pensive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/performing_arts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/persevere.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/person_frowning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/person_with_blond_hair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/person_with_pouting_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pig2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pig_nose.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pineapple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pisces.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pizza.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/plus1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/point_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/point_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/point_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/point_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/point_up_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/police_car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/poodle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/poop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/post_office.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/postal_horn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/postbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/potable_water.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pouch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/poultry_leg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pound.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pouting_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/princess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/punch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/purple_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/purse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/pushpin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/put_litter_in_its_place.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/question.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rabbit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rabbit2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/racehorse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/radio_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rage1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rage2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rage3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rage4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/railway_car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rainbow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/raised_hand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/raised_hands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/raising_hand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ramen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/recycle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/red_car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/red_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/refuse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/registered.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/relaxed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/relieved.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/repeat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/repeat_one.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/restroom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/revolving_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rewind.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ribbon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rice_ball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rice_cracker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rice_scene.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ring.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rocket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/roller_coaster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rooster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rose.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rotating_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/round_pushpin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rowboat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/rugby_football.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/runner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/running.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/running_shirt_with_sash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sagittarius.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sailboat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sandal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/santa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/satellite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/satisfied.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/saxophone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/school.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/school_satchel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/scissors.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/scorpius.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/scream.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/scream_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/scroll.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/seat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/secret.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/see_no_evil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/seedling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/seven.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/shaved_ice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sheep.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/shell.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ship.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/shipit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/shirt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/shit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/shoe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/shower.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/signal_strength.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/six.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/six_pointed_star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ski.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/skull.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sleeping.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sleepy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/slot_machine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/small_blue_diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/small_orange_diamond.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/small_red_triangle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/small_red_triangle_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smile_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smiley.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smiley_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smiling_imp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smirk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smirk_cat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/smoking.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/snail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/snake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/snowboarder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/snowflake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/snowman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sob.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/soccer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/soon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sound.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/space_invader.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/spades.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/spaghetti.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sparkle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sparkler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sparkles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sparkling_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/speak_no_evil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/speaker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/speech_balloon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/speedboat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/squirrel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/star.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/star2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/stars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/station.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/statue_of_liberty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/steam_locomotive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/stew.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/straight_ruler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/strawberry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/stuck_out_tongue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/stuck_out_tongue_closed_eyes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/stuck_out_tongue_winking_eye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sun_with_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sunflower.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sunglasses.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sunny.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sunrise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sunrise_over_mountains.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/surfer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sushi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/suspect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/suspension_railway.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sweat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sweat_drops.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sweat_smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/sweet_potato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/swimmer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/symbols.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/syringe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tada.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tanabata_tree.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tangerine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/taurus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/taxi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/telephone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/telephone_receiver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/telescope.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tennis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/thought_balloon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/three.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/thumbsdown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/thumbsup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/ticket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tiger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tiger2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tired_face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/toilet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tokyo_tower.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tomato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tongue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tophat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tractor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/traffic_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/train.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/train2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/triangular_flag_on_post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/triangular_ruler.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/trident.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/triumph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/trolleybus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/trollface.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/trophy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tropical_drink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tropical_fish.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/truck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/trumpet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tshirt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tulip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/turtle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/tv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/twisted_rightwards_arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/two.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/two_hearts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/two_men_holding_hands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/two_women_holding_hands.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u5272.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u5408.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u55b6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u6307.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u6708.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u6709.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u6e80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u7121.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u7533.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u7981.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/u7a7a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/uk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/umbrella.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/unamused.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/underage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/unlock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/vertical_traffic_light.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/vhs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/vibration_mode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/video_camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/video_game.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/violin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/virgo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/volcano.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/vs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/walking.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/waning_crescent_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/waning_gibbous_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/watch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/water_buffalo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/watermelon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wavy_dash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/waxing_crescent_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/waxing_gibbous_moon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/weary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wedding.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/whale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/whale2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wheelchair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_check_mark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_flower.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_large_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_medium_small_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_medium_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_small_square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/white_square_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wind_chime.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wine_glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wolf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/woman.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/womans_clothes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/womans_hat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/womens.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/worried.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/wrench.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/yellow_heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/yen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/yum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/zap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/zero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/emoji/zzz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/collection/NewArticle.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/collection/NewComment.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/collection/NewHot.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/note/Contents.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/note/NewArticle.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/note/NewComment.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bookmarks.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/collection/_id.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/note/_id.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/notify/chats.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/notify/comments.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/notify/follows.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/notify/likes.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/notify/requests.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/settings/basic.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/settings/misc.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/settings/profile.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/users/_id/collection.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/users/_id/followers.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/users/_id/following.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/users/_id/like.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/Message.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/Setting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/follows/Followers.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/follows/Following.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/recommendations.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/myHeader.vue" afterPath="$PROJECT_DIR$/components/myHeader.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bookmarks.vue" afterPath="$PROJECT_DIR$/pages/bookmarks.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.vue" afterPath="$PROJECT_DIR$/pages/index.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/notify/chats.vue" afterPath="$PROJECT_DIR$/pages/notify/chats.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/notify/comments.vue" afterPath="$PROJECT_DIR$/pages/notify/comments.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/notify/follows.vue" afterPath="$PROJECT_DIR$/pages/notify/follows.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/notify/likes.vue" afterPath="$PROJECT_DIR$/pages/notify/likes.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/notify/requests.vue" afterPath="$PROJECT_DIR$/pages/notify/requests.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/settings/basic.vue" afterPath="$PROJECT_DIR$/pages/settings/basic.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/settings/misc.vue" afterPath="$PROJECT_DIR$/pages/settings/misc.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/settings/profile.vue" afterPath="$PROJECT_DIR$/pages/settings/profile.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/users/_id/followers.vue" afterPath="$PROJECT_DIR$/pages/users/_id/followers.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/users/_id/following.vue" afterPath="$PROJECT_DIR$/pages/users/_id/following.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -933,19 +43,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bookmarks.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/bookmarks.vue">
+      <file leaf-file-name="basic.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/settings/basic.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Setting.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Setting.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/notify/comments.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#script#0;n#!!top" expanded="false" />
-                <element signature="e#1848#1882#0" expanded="false" />
-                <element signature="e#1898#2057#0" expanded="false" />
-                <element signature="e#2084#2118#0" expanded="false" />
-                <element signature="e#2136#2319#0" expanded="false" />
-                <element signature="e#2354#2495#0" expanded="false" />
+                <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misc.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/settings/misc.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requests.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/notify/requests.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding>
+                <element signature="e#969#1012#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="follows.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/notify/follows.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding>
+                <element signature="e#1343#1386#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chats.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/notify/chats.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#2786#2829#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -963,15 +135,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>type</find>
-      <find>se</find>
-      <find>origi</find>
-      <find>BV</find>
-      <find>BVTT</find>
-      <find>avatar</find>
-      <find>testValue</find>
-      <find>$refs</find>
-      <find>emojiValue</find>
       <find>textareaValue</find>
       <find>showEmojis</find>
       <find>selectEmoji</find>
@@ -986,13 +149,22 @@
       <find>pic</find>
       <find>tab</find>
       <find>active</find>
-      <find>following</find>
       <find>编辑</find>
       <find>btn-hollow</find>
       <find>创建</find>
       <find>@ke</find>
       <find>shortLoading</find>
       <find>default-avatar</find>
+      <find>recommend.p</find>
+      <find>following</find>
+      <find>follow:</find>
+      <find>follow</find>
+      <find>aside</find>
+      <find>asideActive</find>
+      <find>emit</find>
+      <find>showMenu</find>
+      <find>span</find>
+      <find>.middle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1001,13 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/plugins/vTooltip.js" />
-        <option value="$PROJECT_DIR$/layouts/default.vue" />
-        <option value="$PROJECT_DIR$/nuxt.config.js" />
-        <option value="$PROJECT_DIR$/server/util/emoji.js" />
-        <option value="$PROJECT_DIR$/components/vueEmoji.vue" />
-        <option value="$PROJECT_DIR$/assets/css/emoji-sprite.scss" />
         <option value="$PROJECT_DIR$/components/Comment.vue" />
         <option value="$PROJECT_DIR$/components/Contribute.vue" />
         <option value="$PROJECT_DIR$/components/Attention.vue" />
@@ -1028,30 +193,37 @@
         <option value="$PROJECT_DIR$/pages/u/_id.vue" />
         <option value="$PROJECT_DIR$/pages/users/_id/like.vue" />
         <option value="$PROJECT_DIR$/pages/users/_id/collection.vue" />
-        <option value="$PROJECT_DIR$/components/myHeader.vue" />
         <option value="$PROJECT_DIR$/pages/note/_id.vue" />
         <option value="$PROJECT_DIR$/pages/message.vue" />
         <option value="$PROJECT_DIR$/components/note/Contents.vue" />
         <option value="$PROJECT_DIR$/components/note/NewArticle.vue" />
         <option value="$PROJECT_DIR$/components/note/NewComment.vue" />
-        <option value="$PROJECT_DIR$/pages/notify/chats.vue" />
-        <option value="$PROJECT_DIR$/pages/notify/comments.vue" />
-        <option value="$PROJECT_DIR$/pages/notify/follows.vue" />
-        <option value="$PROJECT_DIR$/pages/notify/likes.vue" />
-        <option value="$PROJECT_DIR$/pages/notify/requests.vue" />
-        <option value="$PROJECT_DIR$/pages/settings/basic.vue" />
-        <option value="$PROJECT_DIR$/pages/settings/misc.vue" />
-        <option value="$PROJECT_DIR$/pages/settings/profile.vue" />
         <option value="$PROJECT_DIR$/components/users/FollowCollection.vue" />
         <option value="$PROJECT_DIR$/components/users/LikeAtrice.vue" />
         <option value="$PROJECT_DIR$/components/collection/NewArticle.vue" />
         <option value="$PROJECT_DIR$/components/collection/NewComment.vue" />
         <option value="$PROJECT_DIR$/components/collection/NewHot.vue" />
         <option value="$PROJECT_DIR$/pages/collection/_id.vue" />
-        <option value="$PROJECT_DIR$/pages/users/_id/followers.vue" />
-        <option value="$PROJECT_DIR$/pages/users/_id/following.vue" />
-        <option value="$PROJECT_DIR$/assets/css/main.css" />
         <option value="$PROJECT_DIR$/pages/bookmarks.vue" />
+        <option value="$PROJECT_DIR$/pages/index.vue" />
+        <option value="$PROJECT_DIR$/pages/recommendations.vue" />
+        <option value="$PROJECT_DIR$/components/follows/Following.vue" />
+        <option value="$PROJECT_DIR$/pages/users/_id/following.vue" />
+        <option value="$PROJECT_DIR$/pages/users/_id/followers.vue" />
+        <option value="$PROJECT_DIR$/components/follows/Followers.vue" />
+        <option value="$PROJECT_DIR$/components/setting.vue" />
+        <option value="$PROJECT_DIR$/pages/settings/misc.vue" />
+        <option value="$PROJECT_DIR$/pages/settings/profile.vue" />
+        <option value="$PROJECT_DIR$/components/myHeader.vue" />
+        <option value="$PROJECT_DIR$/pages/notify/chats.vue" />
+        <option value="$PROJECT_DIR$/components/Message.vue" />
+        <option value="$PROJECT_DIR$/pages/notify/comments.vue" />
+        <option value="$PROJECT_DIR$/pages/notify/requests.vue" />
+        <option value="$PROJECT_DIR$/pages/notify/likes.vue" />
+        <option value="$PROJECT_DIR$/pages/notify/follows.vue" />
+        <option value="$PROJECT_DIR$/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/components/Setting.vue" />
+        <option value="$PROJECT_DIR$/pages/settings/basic.vue" />
       </list>
     </option>
   </component>
@@ -1088,7 +260,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1129,53 +301,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_id" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jianshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="notify" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1188,19 +320,20 @@
     <property name="standardjs.codestyle.accepted" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Vue" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\jianshu\pages\user\_id" />
-      <recent name="C:\Users\Administrator\Desktop\jianshu\pages\notifications" />
-      <recent name="C:\Users\Administrator\Desktop\jianshu\pages" />
-      <recent name="C:\Users\Administrator\Desktop\jianshu\server\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\jianshu\assets\img" />
       <recent name="C:\Users\Administrator\Desktop\jianshu\static" />
       <recent name="C:\Users\Administrator\Desktop\jianshu\server\util" />
       <recent name="C:\Users\Administrator\Desktop\jianshu\assets\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\jianshu\pages\user\_id" />
+      <recent name="C:\Users\Administrator\Desktop\jianshu\pages\notifications" />
+      <recent name="C:\Users\Administrator\Desktop\jianshu\pages" />
+      <recent name="C:\Users\Administrator\Desktop\jianshu\server\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1323,7 +456,8 @@
       <workItem from="1519830051286" duration="118000" />
       <workItem from="1519866291423" duration="3157000" />
       <workItem from="1519871064961" duration="1671000" />
-      <workItem from="1519887639019" duration="5326000" />
+      <workItem from="1519887639019" duration="19027000" />
+      <workItem from="1519952851896" duration="19704000" />
     </task>
     <task id="LOCAL-00001" summary="完成登录注册页面">
       <created>1516782931892</created>
@@ -1458,11 +592,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519894194032</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="剩余待完成页面。。。。。">
+      <created>1519894438047</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1519894438047</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379562000" />
+    <option name="totallyTimeSpent" value="412967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1475,16 +616,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25896624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14556962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22609673" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27249357" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2710911" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1492,6 +633,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1553,189 +695,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/img/right-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/right-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/right-3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/zz.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/zs.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/z-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/z-2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/z-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/user.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/two.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/sm.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/right-5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/right-4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/pic-1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/p/_id.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/myComment.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="53" column="59" lean-forward="false" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/user/_id/collection.vue" />
     <entry file="file://$PROJECT_DIR$/pages/user/_id/like.vue" />
-    <entry file="file://$PROJECT_DIR$/pages/u/_id.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3483">
-          <caret line="129" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="246" selection-end-column="8" />
-          <folding>
-            <element signature="e#8666#8710#0" expanded="false" />
-            <element signature="e#9063#9157#0" expanded="false" />
-            <element signature="e#9184#9287#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/message.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/notify/chats.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/notify/comments.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/notify/follows.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/notify/likes.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/notify/requests.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/default.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="1210" column="0" lean-forward="true" selection-start-line="1210" selection-start-column="0" selection-end-line="1210" selection-end-column="0" />
-          <folding>
-            <element signature="e#14166#14476#0" expanded="false" />
-            <element signature="e#14551#14676#0" expanded="false" />
-            <element signature="e#14697#14727#0" expanded="false" />
-            <element signature="e#14756#14783#0" expanded="false" />
-            <element signature="e#14820#14872#0" expanded="false" />
-            <element signature="e#14907#14937#0" expanded="false" />
-            <element signature="e#14978#15064#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/message.vue" />
     <entry file="file://$PROJECT_DIR$/components/collection/NewArticle.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1743,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1751,15 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/note/Contents.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1767,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1783,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1791,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1807,23 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/FollowCollection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/users/LikeAtrice.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1831,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1839,49 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="53" column="55" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/users/_id/collection.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="73" column="29" lean-forward="false" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-          <folding>
-            <element signature="e#8069#8113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/users/_id/followers.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/settings/basic.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/settings/misc.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/settings/profile.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1889,9 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="112" column="61" lean-forward="false" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
-          <folding>
-            <element signature="e#8069#8113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1899,34 +786,335 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="614">
           <caret line="131" column="7" lean-forward="false" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#4711#4755#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/users/_id/following.vue">
+    <entry file="file://$PROJECT_DIR$/pages/u/_id.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="1320">
+          <caret line="112" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="246" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/users/_id/collection.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="173" column="20" lean-forward="true" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/users/LikeAtrice.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="60" lean-forward="false" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/note/Contents.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/bookmarks.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="287" column="55" lean-forward="false" selection-start-line="287" selection-start-column="55" selection-end-line="287" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SNS-nuxt-master/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="1522" column="24" lean-forward="true" selection-start-line="1522" selection-start-column="24" selection-end-line="1522" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/p/_id.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2424">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/users/FollowCollection.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/recommendations.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="120" column="43" lean-forward="true" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/create.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/users/_id/following.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="224" column="21" lean-forward="true" selection-start-line="223" selection-start-column="12" selection-end-line="224" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/follows/Followers.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="80" column="25" lean-forward="true" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/users/_id/followers.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="207" column="35" lean-forward="true" selection-start-line="207" selection-start-column="35" selection-end-line="207" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/follows/Following.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/settings/profile.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-            <element signature="e#1848#1882#0" expanded="false" />
-            <element signature="e#1898#2057#0" expanded="false" />
-            <element signature="e#2084#2118#0" expanded="false" />
-            <element signature="e#2136#2319#0" expanded="false" />
-            <element signature="e#2354#2495#0" expanded="false" />
+            <element signature="e#3547#3592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/default.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianshu-hanjun/pages/settings/basic.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="123" column="34" lean-forward="true" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianshu-hanjun/components/MySetting.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="105" column="66" lean-forward="false" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/myComment.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="261" column="36" lean-forward="false" selection-start-line="261" selection-start-column="36" selection-end-line="261" selection-end-column="36" />
+          <folding>
+            <element signature="e#7960#7981#0" expanded="false" />
+            <element signature="e#8231#12924#0" expanded="false" />
+            <element signature="e#13169#13975#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/vueEmoji.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianshu-hanjun/pages/notifications/comments.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="135" column="28" lean-forward="true" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+          <folding>
+            <element signature="e#1690#2686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../jianshu-hanjun/pages/notifications/chats.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Message.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="1619" column="30" lean-forward="false" selection-start-line="1619" selection-start-column="30" selection-end-line="1619" selection-end-column="30" />
+          <folding>
+            <element signature="e#14664#14974#0" expanded="false" />
+            <element signature="e#15049#15174#0" expanded="false" />
+            <element signature="e#15195#15225#0" expanded="false" />
+            <element signature="e#15254#15281#0" expanded="false" />
+            <element signature="e#15318#15370#0" expanded="false" />
+            <element signature="e#15405#15435#0" expanded="false" />
+            <element signature="e#15476#15562#0" expanded="false" />
+            <element signature="e#34876#34900#0" expanded="false" />
+            <element signature="e#34919#34938#0" expanded="false" />
+            <element signature="e#34959#35030#0" expanded="false" />
+            <element signature="e#35121#35177#0" expanded="false" />
+            <element signature="e#35283#35371#0" expanded="false" />
+            <element signature="e#35471#35550#0" expanded="false" />
+            <element signature="e#35668#35741#0" expanded="false" />
+            <element signature="e#35791#35831#0" expanded="false" />
+            <element signature="e#35937#35990#0" expanded="false" />
+            <element signature="e#36090#36179#0" expanded="false" />
+            <element signature="e#36209#36276#0" expanded="false" />
+            <element signature="e#36310#36353#0" expanded="false" />
+            <element signature="e#36401#36495#0" expanded="false" />
+            <element signature="e#36545#36620#0" expanded="false" />
+            <element signature="e#36651#36678#0" expanded="false" />
+            <element signature="e#36718#36768#0" expanded="false" />
+            <element signature="e#36780#36810#0" expanded="false" />
+            <element signature="e#36856#36878#0" expanded="false" />
+            <element signature="e#36922#36946#0" expanded="false" />
+            <element signature="e#36954#36973#0" expanded="false" />
+            <element signature="e#37002#37109#0" expanded="false" />
+            <element signature="e#37154#37180#0" expanded="false" />
+            <element signature="e#37209#37480#0" expanded="false" />
+            <element signature="e#37500#37649#0" expanded="false" />
+            <element signature="e#37681#37715#0" expanded="false" />
+            <element signature="e#37751#37839#0" expanded="false" />
+            <element signature="e#37873#37935#0" expanded="false" />
+            <element signature="e#37969#38044#0" expanded="false" />
+            <element signature="e#38074#38207#0" expanded="false" />
+            <element signature="e#38235#38273#0" expanded="false" />
+            <element signature="e#38304#38347#0" expanded="false" />
+            <element signature="e#38382#38602#0" expanded="false" />
+            <element signature="e#38639#38724#0" expanded="false" />
+            <element signature="e#38755#38857#0" expanded="false" />
+            <element signature="e#38981#39003#0" expanded="false" />
+            <element signature="e#39035#39166#0" expanded="false" />
+            <element signature="e#39182#39228#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/notify/likes.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="73" lean-forward="false" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="e#1243#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/notify/chats.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2786#2829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Setting.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/notify/comments.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/settings/basic.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/settings/misc.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/notify/requests.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="e#969#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/notify/follows.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#1343#1386#0" expanded="true" />
           </folding>
         </state>
       </provider>
