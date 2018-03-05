@@ -16,9 +16,7 @@
   </section>
 </template>
 <script>
-    import NuxtLink from "../.nuxt/components/nuxt-link";
 export default {
-    components: {NuxtLink},
     props: ['error']
 }
 </script>

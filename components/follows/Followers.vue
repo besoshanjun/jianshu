@@ -26,7 +26,7 @@
 </template>
 <script>
     export default{
-        name:'Following',
+        name:'Followers',
         data(){
             return{
                 followObj: {

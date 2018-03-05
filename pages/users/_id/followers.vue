@@ -81,7 +81,7 @@
                     </ul>
                     <div id="list-container">
                         <!--动态组件-->
-                        <!--<component :is="currentTab" keep-alive></component>-->
+                        <component :is="currentTab" keep-alive></component>
                     </div>
                 </div>
                 <div class="col-4 aside">
